@@ -186,7 +186,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
             <a href="/" class="navbar-brand p-0">
                 
-                <img src="{% static 'assets/lib/animate/Rudra-Logo.png' %}" alt="Logo">
+                <img src="{% static 'assets/img/Rudra-Logo.png' %}" alt="Logo">
 
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -200,7 +200,7 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu m-0">
-                            <a href="appointment.html" class="dropdown-item">Appointment</a>
+                            <a href="/appointment/" class="dropdown-item">Appointment</a>
                             <a href="/features/" class="dropdown-item">Features</a>
                             <a href="/blog/" class="dropdown-item">Our Blog</a>
                             <a href="/team/" class="dropdown-item">Our Team</a>
@@ -209,9 +209,27 @@
                         </div>
                     </div>
                     <a href="/contact/" class="nav-item nav-link">Contact Us</a>
+                    
+                    <!-- Language Selector Dropdown -->
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                            <i class="fas fa-language me-2"></i>Language
+                        </a>
+                        <div class="dropdown-menu m-0">
+                            <a href="#" class="dropdown-item" onclick="changeLanguage('en')">English</a>
+                            <a href="#" class="dropdown-item" onclick="changeLanguage('hi')">हिन्दी (Hindi)</a>
+                            <a href="#" class="dropdown-item" onclick="changeLanguage('bn')">বাংলা (Bengali)</a>
+                            <a href="#" class="dropdown-item" onclick="changeLanguage('te')">తెలుగు (Telugu)</a>
+                            <a href="#" class="dropdown-item" onclick="changeLanguage('mr')">मराठी (Marathi)</a>
+                            <a href="#" class="dropdown-item" onclick="changeLanguage('ta')">தமிழ் (Tamil)</a>
+                            <a href="#" class="dropdown-item" onclick="changeLanguage('gu')">ગુજરાતી (Gujarati)</a>
+                            <a href="#" class="dropdown-item" onclick="changeLanguage('kn')">ಕನ್ನಡ (Kannada)</a>
+                            <a href="#" class="dropdown-item" onclick="changeLanguage('ml')">മലയാളം (Malayalam)</a>
+                            <a href="#" class="dropdown-item" onclick="changeLanguage('pa')">ਪੰਜਾਬੀ (Punjabi)</a>
+                        </div>
+                    </div>
                 </div>
-                <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Book
-                    Appointment</a>
+                <a href="/appointment/" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Book Appointment</a>
             </div>
         </nav>
 
@@ -227,7 +245,7 @@
                         <h1 class="display-1 text-capitalize text-white mb-4"></h1>
                         <p class="mb-5 fs-5">
                         </p>
-                        <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Book Appointment</a>
+                        <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="/appointment/">Book Appointment</a>
                     </div>
                 </div>
             </div>
@@ -636,54 +654,53 @@
                         <div class="appointment-form rounded p-5">
                             <p class="fs-4 text-uppercase text-primary">Get In Touch</p>
                             <h1 class="display-5 mb-4">Get Appointment</h1>
-                            <form>
+                            <form id="appointmentForm" method="post">
+                                {% csrf_token %}
                                 <div class="row gy-3 gx-4">
                                     <div class="col-xl-6">
-                                        <input type="text"
-                                            class="form-control py-3 border-primary bg-transparent text-white"
-                                            placeholder="First Name">
+                                        {{ form.first_name }}
                                     </div>
                                     <div class="col-xl-6">
-                                        <input type="email"
-                                            class="form-control py-3 border-primary bg-transparent text-white"
-                                            placeholder="Email">
+                                        {{ form.email }}
                                     </div>
                                     <div class="col-xl-6">
-                                        <input type="phone" class="form-control py-3 border-primary bg-transparent"
-                                            placeholder="Phone">
+                                        {{ form.phone }}
                                     </div>
                                     <div class="col-xl-6">
-                                        <select class="form-select py-3 border-primary bg-transparent"
-                                            aria-label="Default select example">
-                                            <option selected>Your Gender</option>
-                                            <option value="1">Male</option>
-                                            <option value="2">FeMale</option>
-                                            <option value="3">Others</option>
-                                        </select>
+                                        {{ form.gender }}
                                     </div>
                                     <div class="col-xl-6">
-                                        <input type="date" class="form-control py-3 border-primary bg-transparent">
+                                        {{ form.date }}
                                     </div>
                                     <div class="col-xl-6">
-                                        <select class="form-select py-3 border-primary bg-transparent"
-                                            aria-label="Default select example">
-                                            <option selected>Department</option>
-                                            <option value="1">Physiotherapy</option>
-                                            <option value="2">Physical Helth</option>
-                                            <option value="2">Treatments</option>
-                                        </select>
+                                        {{ form.department }}
                                     </div>
                                     <div class="col-12">
-                                        <textarea class="form-control border-primary bg-transparent text-white"
-                                            name="text" id="area-text" cols="30" rows="5"
-                                            placeholder="Write Comments"></textarea>
+                                        {{ form.comments }}
                                     </div>
                                     <div class="col-12">
-                                        <button type="button" class="btn btn-primary text-white w-100 py-3 px-5">SUBMIT
-                                            NOW</button>
+                                        <button type="submit" class="btn btn-primary text-white w-100 py-3 px-5">SUBMIT NOW</button>
                                     </div>
                                 </div>
                             </form>
+                        </div>
+                    </div>
+                    
+                    <!-- Success Modal -->
+                    <div class="modal fade" id="successModal" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Appointment Scheduled</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Your appointment has been scheduled successfully!
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1061,6 +1078,7 @@
         <!-- Back to Top -->
         <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
 
+        
 
         <!-- JavaScript Libraries -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -1073,6 +1091,170 @@
 
         <!-- Template Javascript -->
         <script src="{% static 'assets/js/main.js' %}"></script>
+        <script>
+           // auto-translator.js
+            class AutoTranslator {
+                constructor() {
+                    // Replace with your API key
+                    this.apiKey = 'YOUR_GOOGLE_TRANSLATE_API_KEY';
+                    this.currentLang = localStorage.getItem('selectedLanguage') || 'en';
+                    this.init();
+                }
+
+                init() {
+                    this.createLanguageSelector();
+                    this.setupObserver();
+                    // Translate initial content if not in default language
+                    if (this.currentLang !== 'en') {
+                        this.translatePage(this.currentLang);
+                    }
+                }
+
+                async translatePage(targetLang) {
+                    try {
+                        const elements = this.getTranslatableElements();
+                        
+                        for (const element of elements) {
+                            if (!element.hasAttribute('data-original-text')) {
+                                // Store original text
+                                element.setAttribute('data-original-text', element.textContent.trim());
+                            }
+
+                            const originalText = element.getAttribute('data-original-text');
+                            if (originalText && originalText.trim()) {
+                                const translatedText = await this.translateText(originalText, targetLang);
+                                element.textContent = translatedText;
+                            }
+                        }
+
+                        this.currentLang = targetLang;
+                        localStorage.setItem('selectedLanguage', targetLang);
+                        document.documentElement.lang = targetLang;
+
+                    } catch (error) {
+                        console.error('Translation error:', error);
+                    }
+                }
+
+                async translateText(text, targetLang) {
+                    const url = `https://translation.googleapis.com/language/translate/v2?key=${this.apiKey}`;
+                    
+                    try {
+                        const response = await fetch(url, {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json',
+                            },
+                            body: JSON.stringify({
+                                q: text,
+                                target: targetLang,
+                            }),
+                        });
+
+                        const data = await response.json();
+                        return data.data.translations[0].translatedText;
+                    } catch (error) {
+                        console.error('API translation error:', error);
+                        return text; // Return original text if translation fails
+                    }
+                }
+
+                getTranslatableElements() {
+                    // Select all text nodes except scripts and styles
+                    const elements = document.querySelectorAll(
+                        'h1, h2, h3, h4, h5, h6, p, a, span, button, label, li, td, th, div:not(:has(*)), input[type="submit"], input[type="button"], input[placeholder]'
+                    );
+
+                    return Array.from(elements).filter(element => {
+                        // Skip elements with specific classes or attributes
+                        const skipClasses = ['notranslate', 'code'];
+                        const hasSkipClass = Array.from(element.classList).some(cls => 
+                            skipClasses.includes(cls)
+                        );
+                        
+                        return !hasSkipClass && element.textContent.trim();
+                    });
+                }
+
+                setupObserver() {
+                    // Observe DOM changes to translate dynamic content
+                    const observer = new MutationObserver((mutations) => {
+                        mutations.forEach((mutation) => {
+                            if (mutation.addedNodes.length && this.currentLang !== 'en') {
+                                mutation.addedNodes.forEach((node) => {
+                                    if (node.nodeType === 1) { // ELEMENT_NODE
+                                        const elements = this.getTranslatableElements();
+                                        elements.forEach(element => {
+                                            if (!element.hasAttribute('data-translated')) {
+                                                this.translatePage(this.currentLang);
+                                                element.setAttribute('data-translated', 'true');
+                                            }
+                                        });
+                                    }
+                                });
+                            }
+                        });
+                    });
+
+                    observer.observe(document.body, {
+                        childList: true,
+                        subtree: true
+                    });
+                }
+
+                createLanguageSelector() {
+                    const languages = {
+                        'en': 'English',
+                        'hi': 'हिन्दी',
+                        'bn': 'বাংলা',
+                        'te': 'తెలుగు',
+                        'mr': 'मराठी',
+                        'ta': 'தமிழ்',
+                        'gu': 'ગુજરાતી',
+                        'kn': 'ಕನ್ನಡ',
+                        'ml': 'മലയാളം',
+                        'pa': 'ਪੰਜਾਬੀ'
+                    };
+
+                    // Create language selector if it doesn't exist
+                    if (!document.getElementById('languageSelector')) {
+                        const selector = document.createElement('div');
+                        selector.id = 'languageSelector';
+                        selector.className = 'language-selector-container';
+                        
+                        const html = `
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                                    <i class="fas fa-language me-2"></i>Language
+                                </a>
+                                <div class="dropdown-menu m-0">
+                                    ${Object.entries(languages).map(([code, name]) => `
+                                        <a href="#" class="dropdown-item" data-lang="${code}">${name}</a>
+                                    `).join('')}
+                                </div>
+                            </div>
+                        `;
+                        
+                        selector.innerHTML = html;
+                        
+                        // Add click handlers
+                        selector.querySelectorAll('[data-lang]').forEach(item => {
+                            item.addEventListener('click', (e) => {
+                                e.preventDefault();
+                                const lang = e.target.getAttribute('data-lang');
+                                this.translatePage(lang);
+                            });
+                        });
+
+                        // Insert into navigation if it exists
+                        const navbarNav = document.querySelector('.navbar-nav');
+                        if (navbarNav) {
+                            navbarNav.appendChild(selector);
+                        }
+                    }
+                }
+            }
+        </script>
 
 </body>
 

@@ -10,5 +10,6 @@ urlpatterns = [
     path('blog/', views.blog, name='blog'),
     path('team/', views.team, name='team'),
     path('testimonial/', views.testmonial, name='testimonial'),
-    path('contact/',views.contact, name='contact')
+    path('contact/',views.contact, name='contact'),
+    path('change-language/', views.change_language, name='change_language'),
 ]

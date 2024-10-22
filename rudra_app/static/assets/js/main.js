@@ -127,3 +127,40 @@
 
 })(jQuery);
 
+$(document).ready(function() {
+    $('#appointmentForm').on('submit', function(e) {
+        e.preventDefault();
+        $.ajax({
+            type: 'POST',
+            url: '{% url "index" %}',
+            data: $(this).serialize(),
+            headers: {'X-Requested-With': 'XMLHttpRequest'},
+            dataType: 'json',
+            success: function(response) {
+                if (response.success) {
+                    $('#successModal').modal('show');
+                    $('#appointmentForm')[0].reset();
+                } else {
+                    // Handle errors
+                    $.each(response.errors, function(key, value) {
+                        $('#id_' + key).addClass('is-invalid');
+                        $('<div class="invalid-feedback">' + value[0] + '</div>').insertAfter('#id_' + key);
+                    });
+                }
+            },
+            error: function(xhr, errmsg, err) {
+                console.log(xhr.status + ": " + xhr.responseText);
+            }
+        });
+    });
+});
+function changeLanguage(langCode) {
+    fetch(`/change-language/?lang=${langCode}`)
+        .then(response => response.json())
+        .then(data => {
+            if (data.status === 'success') {
+                location.reload();
+            }
+        });
+}
+

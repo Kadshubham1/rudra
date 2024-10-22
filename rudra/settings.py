@@ -11,6 +11,22 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
+from django.utils.translation import gettext_lazy as _
+
+LANGUAGES = [
+    ('en', _('English')),
+    ('hi', _('Hindi')),
+    ('bn', _('Bengali')),
+    ('te', _('Telugu')),
+    ('mr', _('Marathi')),
+    ('ta', _('Tamil')),
+    ('gu', _('Gujarati')),
+    ('kn', _('Kannada')),
+    ('ml', _('Malayalam')),
+    ('pa', _('Punjabi')),
+]
+
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -43,11 +59,16 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+]
+
+LOCALE_PATHS = [
+    BASE_DIR / 'locale',
 ]
 
 ROOT_URLCONF = 'rudra.urls'
@@ -103,6 +124,18 @@ AUTH_PASSWORD_VALIDATORS = [
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'amolbrand00@gmail.com'
+EMAIL_HOST_PASSWORD = 'seqd ibte umwz cfyh'
+
+DEFAULT_FROM_EMAIL = 'amolbrand00@gmail.com'
+ADMIN_EMAIL = 'shubhamkad622@gmail.com'
+
+
 
 LANGUAGE_CODE = 'en-us'
 
