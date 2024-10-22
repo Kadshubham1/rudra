@@ -331,8 +331,8 @@
 
 .header-carousel .owl-nav .owl-prev {
     position: absolute;
-    width: 70px;
-    height: 70px;
+    width: 42px;
+    height: 42px;
     top: 50%;
     left: 20px;
     transform: translateY(-50%);
@@ -348,8 +348,8 @@
 
 .header-carousel .owl-nav .owl-next {
     position: absolute;
-    width: 70px;
-    height: 70px;
+    width: 42px;
+    height: 42px;
     top: 50%;
     right: 20px;
     transform: translateY(-50%);

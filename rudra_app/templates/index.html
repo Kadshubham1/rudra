@@ -142,15 +142,14 @@
 
 <body>
 
-    {% comment %} <!-- Spinner Start -->
-    <div id="spinner"
+     <!-- Spinner Start -->
+    {% comment %} <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
             <span class="sr-only">Loading...</span>
         </div>
-    </div>
-    <!-- Spinner End --> {% endcomment %}
-
+    </div> {% endcomment %}
+    <!-- Spinner End --> 
 
     <!-- Topbar Start -->
     <div class="container-fluid bg-dark px-5 d-none d-lg-block">
@@ -186,8 +185,9 @@
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
             <a href="/" class="navbar-brand p-0">
-                <h1 class="text-primary m-0"><i class="fas fa-star-of-life me-3"></i>R</h1>
-                <!-- <img src="{% static 'assets/img/logo.png" alt="Logo"> -->
+                
+                <img src="{% static 'assets/lib/animate/Rudra-Logo.png' %}" alt="Logo">
+
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
@@ -232,8 +232,8 @@
                 </div>
             </div>
             <div class="header-carousel-item">
-                <img src="{% static 'assets/img/carousel-2.jpg' %}" class="img-fluid w-100" alt="Image">
-                <div class="carousel-caption">
+                <img src="{% static 'assets/img/RUDRA (2).png' %}" class="img-fluid w-100" alt="Image">
+                {% comment %} <div class="carousel-caption">
                     <div class="carousel-caption-content p-3">
                         <h5 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Our Ayurvedic
                             Services</h5>
@@ -241,12 +241,12 @@
                         <p class="mb-5 fs-5 animated slideInDown">
                         </p>
                         <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Book Appointment</a>
-                    </div>
-                </div>
+                    </div> 
+                </div> {% endcomment %}
             </div>
             <div class="header-carousel-item">
-                <img src="{% static 'assets/img/carousel-2.jpg' %}" class="img-fluid w-100" alt="Image">
-                <div class="carousel-caption">
+                <img src="{% static 'assets/img/product-b.png' %}" class="img-fluid w-100" alt="Image">
+                {% comment %} <div class="carousel-caption">
                     <div class="carousel-caption-content p-3">
                         <h5 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Physiotherapy
                             Center</h5>
@@ -255,7 +255,7 @@
                         </p>
                         <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Book Appointment</a>
                     </div>
-                </div>
+                </div> {% endcomment %}
             </div>
         </div>
         <!-- Carousel End -->
@@ -271,9 +271,7 @@
                     <h4 class="sub-title px-3 mb-0">What We Do</h4>
                 </div>
 
-                <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deleniti amet at atque
-                    sequi quibusdam cumque itaque repudiandae temporibus, eius nam mollitia voluptas maxime veniam
-                    necessitatibus saepe in ab? Repellat!</p>
+                <p class="mb-0">Offer a variety of services like Swedish, Deep Tissue, Hot Stone, and Thai massages, designed to relax muscles, improve circulation, and relieve stress!</p>
             </div>
             <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
