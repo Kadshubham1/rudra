@@ -240,6 +240,7 @@
                 <img src="{% static 'assets/img/aurvedic-benner.jpg' %}" class="img-fluid w-100" alt="Image">
                 <div class="carousel-caption">
                     <div class="carousel-caption-content p-3">
+                        {% i %}
                         <h5 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Physiotherapy
                             Center</h5>
                         <h1 class="display-1 text-capitalize text-white mb-4"></h1>
@@ -1095,8 +1096,6 @@
            // auto-translator.js
             class AutoTranslator {
                 constructor() {
-                    // Replace with your API key
-                    this.apiKey = 'YOUR_GOOGLE_TRANSLATE_API_KEY';
                     this.currentLang = localStorage.getItem('selectedLanguage') || 'en';
                     this.init();
                 }
@@ -1137,24 +1136,30 @@
                 }
 
                 async translateText(text, targetLang) {
-                    const url = `https://translation.googleapis.com/language/translate/v2?key=${this.apiKey}`;
+                    const endpoint = "https://libretranslate.de/translate"; // Free public instance
                     
                     try {
-                        const response = await fetch(url, {
+                        const response = await fetch(endpoint, {
                             method: 'POST',
                             headers: {
                                 'Content-Type': 'application/json',
                             },
                             body: JSON.stringify({
                                 q: text,
+                                source: 'auto',  // Auto-detect source language
                                 target: targetLang,
+                                format: 'text',
                             }),
                         });
-
+                
+                        if (!response.ok) {
+                            throw new Error(`HTTP error! status: ${response.status}`);
+                        }
+                
                         const data = await response.json();
-                        return data.data.translations[0].translatedText;
+                        return data.translatedText;
                     } catch (error) {
-                        console.error('API translation error:', error);
+                        console.error('Translation error:', error);
                         return text; // Return original text if translation fails
                     }
                 }
