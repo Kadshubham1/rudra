@@ -215,12 +215,12 @@
 }
 
 .navbar-light .navbar-brand img {
-    max-height: 50px;
+    max-height: 100px;
     transition: .5s;
 }
 
 .sticky-top.navbar-light .navbar-brand img {
-    max-height: 45px;
+    max-height: 110px;
 }
 
 .navbar .dropdown-toggle::after {
