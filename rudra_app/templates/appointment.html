@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-{% load static %}
+ {% load static %}
+ {% load i18n %}
     <head>
         <meta charset="utf-8">
         <title>Appointment Rudra-Aayurvedic</title>
@@ -27,6 +28,19 @@
 
         <!-- Template Stylesheet -->
         <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+        <style>
+            .spinner-border {
+                width: 1.5rem;
+                height: 1.5rem;
+                vertical-align: middle;
+                margin-left: 0.5rem;
+            }
+            
+            button:disabled {
+                cursor: not-allowed;
+                opacity: 0.7;
+            }
+        </style>
     </head>
 
     <body>
@@ -66,47 +80,43 @@
         <!-- Navbar & Hero Start -->
         <div class="container-fluid position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
-                <a href="/" class="navbar-brand p-0">
-                    
-                    <img src="{% static 'assets/img/Rudra-Logo.png' %}" alt="Logo">
-    
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto py-0">
-                        <a href="/" class="nav-item nav-link active">Home</a>
-                        <a href="/about/" class="nav-item nav-link">About</a>
-                        <a href="/services/" class="nav-item nav-link">Services</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu m-0">
-                                <a href="/appointment/" class="dropdown-item">Appointment</a>
-                                
-                                <a href="/blog/" class="dropdown-item">Our Blog</a>
-                                
-                                
-                                
-                            </div>
-                        </div>
-                        <a href="/contact/" class="nav-item nav-link">Contact Us</a>
-                        
-                        <!-- Language Selector Dropdown -->
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
-                                <i class="fas fa-language me-2"></i>Language
-                            </a>
-                            <div class="dropdown-menu m-0">
-                                <a href="#" class="dropdown-item" onclick="changeLanguage('en')">English</a>
-                                <a href="#" class="dropdown-item" onclick="changeLanguage('hi')">हिन्दी (Hindi)</a>
-                                <a href="#" class="dropdown-item" onclick="changeLanguage('mr')">मराठी (Marathi)</a>
-                            </div>
+            <a href="{% url 'index' %}" class="navbar-brand p-0">
+                <img src="{% static 'assets/img/Rudra-Logo.png' %}" alt="{% trans 'Logo' %}">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="{% url 'index' %}" class="nav-item nav-link active">{% trans "Home" %}</a>
+                    <a href="{% url 'about' %}" class="nav-item nav-link">{% trans "About" %}</a>
+                    <a href="{% url 'services' %}" class="nav-item nav-link">{% trans "Services" %}</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{% trans "Pages" %}</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="{% url 'appointment' %}" class="dropdown-item">{% trans "Appointment" %}</a>
+                            <a href="{% url 'blog' %}" class="dropdown-item">{% trans "Our Blog" %}</a>
                         </div>
                     </div>
-                    <a href="/appointment/" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Book Appointment</a>
+                    <a href="{% url 'contact' %}" class="nav-item nav-link">{% trans "Contact Us" %}</a>
+                    
+                    <!-- Language Selector Dropdown -->
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                            <i class="fas fa-language me-2"></i>{% trans "Language" %}
+                        </a>
+                        <div class="dropdown-menu m-0">
+                            <a href="{% url 'change_language' 'en' %}" class="dropdown-item">English</a>
+                            <a href="{% url 'change_language' 'hi' %}" class="dropdown-item">हिन्दी (Hindi)</a>
+                            <a href="{% url 'change_language' 'mr' %}" class="dropdown-item">मराठी (Marathi)</a>
+                        </div>
+                    </div>
                 </div>
-            </nav>
+                <a href="{% url 'appointment' %}" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">
+                    {% trans "Book Appointment" %}
+                </a>
+            </div>
+        </nav>
         </div>
         <!-- Navbar End -->
 
@@ -190,7 +200,12 @@
                                         {{ form.comments }}
                                     </div>
                                     <div class="col-12">
-                                        <button type="submit" class="btn btn-primary text-white w-100 py-3 px-5">SUBMIT NOW</button>
+                                        <button type="submit" id="submitBtn" class="btn btn-primary text-white w-100 py-3 px-5">
+                                            <span class="button-text">SUBMIT NOW</span>
+                                            <div class="spinner-border text-light d-none" role="status">
+                                                <span class="visually-hidden">Loading...</span>
+                                            </div>
+                                        </button>
                                     </div>
                                 </div>
                             </form>

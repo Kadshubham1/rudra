@@ -56,6 +56,198 @@ msgstr "अपॉइंटमेंट"
 msgid "Our Blog"
 msgstr "हमारा ब्लॉग"
 
+msgid "What We Do"
+msgstr "हम क्या करते हैं"
+
+msgid "Back Pain"
+msgstr "पीठदुखी"
+
+msgid "Back pain affects a wide range of individuals across different age groups and can be influenced by various risk factors, including age, lack of exercise, and obesity. Recognizing the symptoms and effective management and treatment."
+msgstr "पीठदुखी विभिन्न आयु समूहों के व्यक्तियों को प्रभावित करती है और इसके लिए कई जोखिम कारक, जैसे कि उम्र, व्यायाम की कमी, और मोटापा, जिम्मेदार हो सकते हैं। लक्षणों को पहचानना और प्रभावी प्रबंधन और उपचार करना आवश्यक है।"
+
+msgid "Neck Gap"
+msgstr "गर्दन का गैप"
+
+msgid "For neck and shoulder pain, massage therapy can be a very successful treatment. Experienced massage therapists can help reduce your stress, enhance blood flow, and encourage relaxation in the muscles surrounding the neck."
+msgstr "गर्दन और कंधे के दर्द के लिए, मालिश चिकित्सा एक बहुत सफल उपचार हो सकती है। अनुभवी मालिश चिकित्सक आपके तनाव को कम करने, रक्त प्रवाह को बढ़ाने, और गर्दन के चारों ओर की मांसपेशियों में आराम को प्रोत्साहित करने में मदद कर सकते हैं।"
+
+msgid "Spinal gap"
+msgstr "रीढ़ का गैप"
+
+msgid "In massage therapy, proper spinal alignment is essential to avoid creating unnecessary gaps that can lead to discomfort.spine remains properly supported during treatments is key for relaxation and avoiding strain."
+msgstr "मालिश चिकित्सा में, उचित रीढ़ की संरेखण अनावश्यक गैप उत्पन्न करने से बचने के लिए आवश्यक है जो असुविधा का कारण बन सकते हैं। उपचार के दौरान रीढ़ को ठीक से समर्थन मिलना आराम और तनाव से बचने के लिए महत्वपूर्ण है।"
+
+msgid "Tingling in hands"
+msgstr "हाथों में झनझनाहट"
+
+msgid "Tingling in the hands can often be addressed with the right massage techniques,It is often described as pins and needles or numbness and can be caused as it is commonly related to muscle tension, nerve compression, or poor circulation."
+msgstr "हाथों में झनझनाहट अक्सर सही मालिश तकनीकों से संबोधित की जा सकती है। इसे अक्सर पिन और सुइयों या सुन्नता के रूप में वर्णित किया जाता है और यह आमतौर पर मांसपेशियों के तनाव, नसों के संकुचन, या खराब रक्त संचार से संबंधित हो सकता है।"
+
+msgid "About Us"
+msgstr "हमारे बारे में"
+
+msgid "Welcome to Rudra Aurvedic, where we specialize in promoting relaxation, healing, and well-being through expert massage therapy. With over 20 years of experience in the industry, our center is committed to providing a peaceful and rejuvenating environment where every client receives personalized attention and care."
+msgstr "रुद्र आयुर्वेद में आपका स्वागत है, जहां हम विशेषज्ञ मालिश चिकित्सा के माध्यम से आराम, उपचार और कल्याण को बढ़ावा देने में विशेषज्ञता रखते हैं। उद्योग में 20 से अधिक वर्षों के अनुभव के साथ, हमारा केंद्र एक शांतिपूर्ण और ताजगी देने वाले वातावरण प्रदान करने के लिए प्रतिबद्ध है, जहां प्रत्येक ग्राहक को व्यक्तिगत ध्यान और देखभाल प्राप्त होती है।"
+
+msgid "Our team of highly skilled and certified massage therapists brings extensive knowledge and expertise to each session. We offer a variety of therapeutic services, Back Pain, Bones Gap, Head pressing, kidney stone, and reflexology massages, tailored to meet your unique needs—whether it's stress relief, pain management, or simply a moment of tranquility."
+msgstr "हमारी टीम के उच्च कौशल और प्रमाणित मालिश चिकित्सक प्रत्येक सत्र में व्यापक ज्ञान और विशेषज्ञता लाते हैं। हम विभिन्न चिकित्सीय सेवाएँ प्रदान करते हैं, जैसे पीठदुखी, हड्डियों का गैप, सिर दबाना, किडनी स्टोन, और रिफ्लेक्सोलॉजी मालिश, जो आपकी अद्वितीय आवश्यकताओं को पूरा करने के लिए तैयार की गई हैं—चाहे वह तनाव राहत हो, दर्द प्रबंधन हो, या बस एक पल की शांति।"
+
+msgid "At Rudra Aurvedic, your well-being is our priority. Our years of experience have taught us the art of balancing traditional massage techniques with modern approaches to health, ensuring you leave feeling refreshed, relaxed, and restored."
+msgstr "रुद्र आयुर्वेद में, आपका कल्याण हमारी प्राथमिकता है। हमारे वर्षों के अनुभव ने हमें पारंपरिक मालिश तकनीकों को स्वास्थ्य के आधुनिक दृष्टिकोण के साथ संतुलित करने की कला सिखाई है, यह सुनिश्चित करते हुए कि आप ताजगी, विश्राम और पुनर्स्थापना के साथ बाहर निकलें।"
+
+msgid "Join us and experience the healing power of touch, perfected over years of dedicated service."
+msgstr "हमसे जुड़ें और स्पर्श की उपचार शक्ति का अनुभव करें, जो वर्षों की समर्पित सेवा में परिपूर्ण हुई है।"
+
+msgid "Our Product"
+msgstr "हमारा उत्पाद"
+
+msgid "Explore our wide range of products with detailed information and user ratings."
+msgstr "हमारे विस्तृत उत्पाद रेंज का अन्वेषण करें जिसमें विस्तृत जानकारी और उपयोगकर्ता रेटिंग शामिल हैं।"
+
+msgid "OrthoCalming Herbal Tea"
+msgstr "ऑर्थो-कैल्मिंग हर्बल चाय"
+
+msgid "Ortho Care"
+msgstr "ऑर्थो केयर"
+
+msgid "Quick-action roll on for joint pain. Provides instant relief and lasting comfort."
+msgstr "सांधेदुखी के लिए त्वरित कार्य रोल-ऑन। तात्कालिक राहत और दीर्घकालिक आराम प्रदान करता है।"
+
+msgid "12.99 Rs"
+msgstr "12.99 रुपये"
+
+msgid "Buy Now"
+msgstr "अब खरीदें"
+
+msgid "TulsiCooling Massage Oil"
+msgstr "तुलसी-कूलिंग मसाज ऑइल"
+
+msgid "Tulsi Drops"
+msgstr "तुलसी ड्रॉप्स"
+
+msgid "Natural Tulsi extract for immunity. Helps respiratory health and detoxification."
+msgstr "इम्यूनिटी के लिए प्राकृतिक तुलसी का अर्क। श्वसन स्वास्थ्य और डिटॉक्सिफिकेशन में मदद करता है।"
+
+msgid "24.99 Rs"
+msgstr "24.99 रुपये"
+
+msgid "Rudra AyurvedicEnergizing Herb Mix"
+msgstr "रुद्र आयुर्वेदिक ऊर्जा देने वाला हर्ब मिश्रण"
+
+msgid "Vaibhav Limint Oil"
+msgstr "वैभव लिमिंट ऑइल"
+
+msgid "Herbal Oil for pain relief. Alleviates joint discomfort and promotes relaxation."
+msgstr "दर्द राहत के लिए हर्बल ऑइल। सांधेदुखी को कम करता है और आराम को बढ़ावा देता है।"
+
+msgid "18.99 Rs"
+msgstr "18.99 रुपये"
+
+msgid "RudraAyurvedic Soap"
+msgstr "रुद्र आयुर्वेदिक साबुन"
+
+msgid "Artho Plus +"
+msgstr "आर्थो प्लस +"
+
+msgid "Holistic Formula for joint health. Soothes pain, improves physical performance."
+msgstr "सांधेदुखी के स्वास्थ्य के लिए समग्र फॉर्मूला। दर्द को शांत करता है, शारीरिक प्रदर्शन में सुधार करता है।"
+
+msgid "9.99 Rs"
+msgstr "9.99 रुपये"
+
+msgid "PowderCalming Herbal Tea"
+msgstr "पाउडर-कैल्मिंग हर्बल चाय"
+
+msgid "Artho Care Powder"
+msgstr "आर्थो केयर पाउडर"
+
+msgid "Soothing blend for relaxation."
+msgstr "आराम के लिए शांत मिश्रण।"
+
+msgid "Pain OilCooling Massage Oil"
+msgstr "दर्द का तेल-कूलिंग मसाज ऑइल"
+
+msgid "Artho Care Pain Oil"
+msgstr "आर्थो केयर दर्द का तेल"
+
+msgid "Natural Oil for joint relief. Eases stiffness, boosts mobility."
+msgstr "सांधेदुखी के लिए प्राकृतिक तेल। कठोरता को कम करता है, गतिशीलता को बढ़ाता है।"
+
+msgid "ChurnEnergizing Herb Mix"
+msgstr "चूर्ण-ऊर्जा देने वाला हर्ब मिश्रण"
+
+msgid "Madhusudan Churn"
+msgstr "मधुसूदन चूर्ण"
+
+msgid "Ayurvedic blend for digestive health. Balances acidity, improves digestion."
+msgstr "पाचन स्वास्थ्य के लिए आयुर्वेदिक मिश्रण। अम्लता को संतुलित करता है, पाचन में सुधार करता है।"
+
+msgid "TridoshicAyurvedic Soap"
+msgstr "त्रिदोषिक आयुर्वेदिक साबुन"
+
+msgid "Memohence"
+msgstr "मेमोहेंस"
+
+msgid "Natural cleansing for all types."
+msgstr "सभी प्रकार के लिए प्राकृतिक सफाई।"
+
+msgid "Get Appointment"
+msgstr "अपॉइंटमेंट लें"
+
+msgid "Massage therapy is more than just a luxury—it is a powerful tool for improving physical health and emotional well-being. This blog explores the top benefits of regular massage, including stress relief, improved circulation, and better sleep quality."
+msgstr "मसाज थेरपी सिर्फ एक विलासिता नहीं है—यह शारीरिक स्वास्थ्य और भावनात्मक कल्याण में सुधार के लिए एक शक्तिशाली उपकरण है। यह ब्लॉग नियमित मसाज के शीर्ष लाभों की खोज करता है, जिसमें तनाव राहत, सुधारित परिसंचरण, और बेहतर नींद की गुणवत्ता शामिल है।"
+
+msgid "Image"
+msgstr "छवि"
+
+msgid "01 Nov 2024"
+msgstr "01 नवम्बर 2024"
+
+msgid "3 Comments"
+msgstr "3 टिप्पणियाँ"
+
+msgid "Remove back Pain While Working on o physio"
+msgstr "फिजियो पर काम करते समय पीठ के दर्द को दूर करें"
+
+msgid "Back pain affects millions of people worldwide, and massage therapy offers a non-invasive treatment that can provide relief."
+msgstr "पीठ का दर्द दुनियाभर में लाखों लोगों को प्रभावित करता है, और मसाज थेरपी एक गैर-आक्रामक उपचार प्रदान करती है जो राहत प्रदान कर सकती है।"
+
+msgid "02 Nov 2024"
+msgstr "02 नवम्बर 2024"
+
+msgid "7 Comments"
+msgstr "7 टिप्पणियाँ"
+
+msgid "Benefits of a weekly physiotherapy session"
+msgstr "साप्ताहिक फिजियोथेरेपी सत्र के लाभ"
+
+msgid "Not all massages are created equal, and understanding the different techniques can help you select the best option for your needs."
+msgstr "सभी मसाज एक समान नहीं होते हैं, और विभिन्न तकनीकों को समझना आपकी जरूरतों के लिए सबसे अच्छा विकल्प चुनने में मदद कर सकता है।"
+
+msgid "05 Nov 2024"
+msgstr "05 नवम्बर 2024"
+
+msgid "10 Comments"
+msgstr "10 टिप्पणियाँ"
+
+msgid "Regular exercise can slow ageing process"
+msgstr "नियमित व्यायाम उम्र बढ़ने की प्रक्रिया को धीमा कर सकता है"
+
+msgid "Athletes push their bodies to the limit, and massage therapy can play a critical role in recovery and injury prevention."
+msgstr "खिलाड़ी अपने शरीर को सीमा तक धकेलते हैं, और मसाज थेरपी पुनर्प्राप्ति और चोटों की रोकथाम में महत्वपूर्ण भूमिका निभा सकती है।"
+
+
+
+
+
+msgid "Tingling in the hands can often be addressed with the right massage techniques. It is often described as pins and needles or numbness and can be caused as it is commonly related to muscle tension, nerve compression, or poor circulation."
+msgstr "हाथों में झनझनाहट अक्सर सही मालिश तकनीकों से संबोधित की जा सकती है। इसे अक्सर पिन और सुइयों या सुन्नता के रूप में वर्णित किया जाता है और यह आमतौर पर मांसपेशियों के तनाव, नसों के संकुचन, या खराब रक्त संचार से संबंधित हो सकता है।"
+
+
+msgid "Offer a variety of services like Swedish, Deep Tissue, Hot Stone, and Thai massages, designed to relax muscles, improve circulation, and relieve stress!"
+msgstr "स्वीडिश, डीप टिश्यू, हॉट स्टोन, और थाई मसाज जैसी विभिन्न सेवाएँ प्रदान करें, जो मांसपेशियों को आराम देने, रक्त संचार सुधारने, और तनाव कम करने के लिए डिज़ाइन की गई हैं!"
+
+
 msgid "Joint inflammation, also known as arthritis, occurs when the immune system or damaged tissues release chemicals that cause swelling and pain in the joints."
 msgstr "जोड़ों की सूजन, जिसे गठिया कहा जाता है, तब होती है जब इम्यून सिस्टम या क्षतिग्रस्त ऊतकों द्वारा रसायन छोड़े जाते हैं, जो जोड़ों में सूजन और दर्द का कारण बनते हैं।"
 

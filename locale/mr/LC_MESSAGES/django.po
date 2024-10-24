@@ -169,3 +169,132 @@ msgstr "गाठणीतील दुखापत एक सामान्य
 
 msgid "Kidney stones are hard mineral and salt deposits that form in the kidneys,often causing severe pain when they move through the urinary tract causing significant pain ."
 msgstr "किडनी स्टोन्स म्हणजे किडनीमध्ये बनणारे कठोर खनिज आणि मीठाचे ठिपके, जे मूत्रमार्गातून हलत असताना तीव्र वेदना निर्माण करतात."
+
+msgid "About Us"
+msgstr "आमच्या विषयी"
+
+msgid "Welcome to Rudra Aurvedic, where we specialize in promoting relaxation, healing, and well-being through expert massage therapy. With over 20 years of experience in the industry, our center is committed to providing a peaceful and rejuvenating environment where every client receives personalized attention and care."
+msgstr "रुद्र आयुर्वेदमध्ये आपले स्वागत आहे, जिथे आम्ही तज्ञ मालिश चिकित्सा मार्फत आराम, उपचार, आणि कल्याण वाढवण्यात विशेषता ठेवतो. उद्योगात 20 वर्षांहून अधिक अनुभवासह, आमचे केंद्र एक शांत आणि ताजगी देणारे वातावरण प्रदान करण्यास वचनबद्ध आहे, जिथे प्रत्येक ग्राहकाला वैयक्तिक लक्ष आणि काळजी मिळते."
+
+msgid "Our team of highly skilled and certified massage therapists brings extensive knowledge and expertise to each session. We offer a variety of therapeutic services, Back Pain, Bones Gap, Head pressing, kidney stone, and reflexology massages, tailored to meet your unique needs—whether it's stress relief, pain management, or simply a moment of tranquility."
+msgstr "आमच्या उच्च कौशल्य असलेल्या आणि प्रमाणित मालिश चिकित्सकांची टीम प्रत्येक सत्रात विस्तृत ज्ञान आणि कौशल्य आणते. आम्ही विविध चिकित्सीय सेवांची ऑफर करतो, जसे की पीठदुखी, हाडांचे गॅप, डोक्याची दाबणे, किडनी स्टोन, आणि रिफ्लेक्सोलॉजी मालिश, जे आपल्या अद्वितीय आवश्यकतांनुसार तयार केलेली आहे—ते ताण कमी करणे, दुखापत व्यवस्थापन, किंवा फक्त शांततेचा एक क्षण असो."
+
+msgid "At Rudra Aurvedic, your well-being is our priority. Our years of experience have taught us the art of balancing traditional massage techniques with modern approaches to health, ensuring you leave feeling refreshed, relaxed, and restored."
+msgstr "रुद्र आयुर्वेदमध्ये, आपले कल्याण आमची प्राथमिकता आहे. आमच्या वर्षांच्या अनुभवाने आम्हाला पारंपरिक मालिश तंत्रांना आरोग्याच्या आधुनिक दृष्टिकोनासोबत संतुलित करण्याची कला शिकवली आहे, त्यामुळे आपण ताजेतवाने, आरामदायक आणि पुनर्स्थापित झालेल्या अवस्थेत बाहेर जाल."
+
+msgid "Join us and experience the healing power of touch, perfected over years of dedicated service."
+msgstr "आमच्यात सामील व्हा आणि स्पर्शाची उपचार शक्ती अनुभवून पहा, जी वर्षांतील समर्पित सेवेमध्ये परिपूर्ण झाली आहे."
+
+msgid "Our Product"
+msgstr "आमचा उत्पाद"
+
+msgid "Explore our wide range of products with detailed information and user ratings."
+msgstr "तपशीलवार माहिती आणि वापरकर्त्यांच्या रेटिंगसह आमच्या विस्तृत उत्पादन श्रेणीचा अन्वेषण करा."
+
+msgid "OrthoCalming Herbal Tea"
+msgstr "ऑर्थो-कॅल्मिंग हर्बल चहा"
+
+msgid "Quick-action roll on for joint pain. Provides instant relief and lasting comfort."
+msgstr "सांधेदुखी साठी जलद क्रिया रोल-ऑन. तात्काळ आराम आणि दीर्घकालीन सुविधा प्रदान करतो."
+
+msgid "12.99 Rs"
+msgstr "12.99 रुपये"
+
+msgid "Buy Now"
+msgstr "आता खरेदी करा"
+
+msgid "TulsiCooling Massage Oil"
+msgstr "तुलसी-कूलिंग मसाज ऑईल"
+
+msgid "Natural Tulsi extract for immunity. Helps respiratory health and detoxification."
+msgstr "इम्युनिटी साठी नैसर्गिक तुलसी अर्क. श्वसन आरोग्यास आणि डिटॉक्सिफिकेशनला मदत करतो."
+
+msgid "24.99 Rs"
+msgstr "24.99 रुपये"
+
+msgid "Rudra AyurvedicEnergizing Herb Mix"
+msgstr "रुद्र आयुर्वेदिक ऊर्जा देणारा हर्ब मिश्रण"
+
+msgid "Herbal Oil for pain relief. Alleviates joint discomfort and promotes relaxation."
+msgstr "दुखापतीसाठी हर्बल ऑईल. सांधेदुखी कमी करते आणि आराम वाढवते."
+
+msgid "18.99 Rs"
+msgstr "18.99 रुपये"
+
+msgid "RudraAyurvedic Soap"
+msgstr "रुद्र आयुर्वेदिक साबण"
+
+msgid "9.99 Rs"
+msgstr "9.99 रुपये"
+
+msgid "PowderCalming Herbal Tea"
+msgstr "पाउडर-कॅल्मिंग हर्बल चहा"
+
+msgid "Soothing blend for relaxation."
+msgstr "आरामासाठी शांत मिश्रण."
+
+msgid "Pain OilCooling Massage Oil"
+msgstr "दुखाच्या तेल-कूलिंग मसाज ऑईल"
+
+msgid "Natural Oil for joint relief. Eases stiffness, boosts mobility."
+msgstr "सांधेदुखी साठी नैसर्गिक तेल. कडकपणा कमी करतो, गतिशीलता वाढवतो."
+
+msgid "ChurnEnergizing Herb Mix"
+msgstr "चूर्ण-ऊर्जा देणारा हर्ब मिश्रण"
+
+msgid "Ayurvedic blend for digestive health. Balances acidity, improves digestion."
+msgstr "पचन आरोग्यासाठी आयुर्वेदिक मिश्रण. आम्लता संतुलित करतो, पचन सुधारतो."
+
+msgid "TridoshicAyurvedic Soap"
+msgstr "त्रिदोषिक आयुर्वेदिक साबण"
+
+msgid "Natural cleansing for all types."
+msgstr "सर्व प्रकारांसाठी नैसर्गिक स्वच्छता."
+
+msgid "Get Appointment"
+msgstr "अपॉइंटमेंट मिळवा"
+
+msgid "Massage therapy is more than just a luxury—it is a powerful tool for improving physical health and emotional well-being. This blog explores the top benefits of regular massage, including stress relief, improved circulation, and better sleep quality."
+msgstr "मसाज थेरपी फक्त एक विलासिता नाही—ते शारीरिक आरोग्य आणि भावनिक कल्याण सुधारण्यासाठी एक शक्तिशाली साधन आहे. हा ब्लॉग नियमित मसाजचे शीर्ष फायदे शोधतो, ज्यामध्ये ताण कमी करणे, सुधारित परिसंचरण, आणि चांगली झोप यांचा समावेश आहे."
+
+msgid "Image"
+msgstr "छवि"
+
+msgid "01 Nov 2024"
+msgstr "01 नोव्हेंबर 2024"
+
+msgid "3 Comments"
+msgstr "3 टिप्पण्या"
+
+msgid "Remove back Pain While Working on o physio"
+msgstr "फिजियोवर काम करताना पाठीच्या वेदना दूर करा"
+
+msgid "Back pain affects millions of people worldwide, and massage therapy offers a non-invasive treatment that can provide relief."
+msgstr "पाठीचा वेदना जगभरात लाखो लोकांना प्रभावित करतो, आणि मसाज थेरपी एक नॉन-इनवेसिव्ह उपचार देते जो आराम देऊ शकतो."
+
+msgid "02 Nov 2024"
+msgstr "02 नोव्हेंबर 2024"
+
+msgid "7 Comments"
+msgstr "7 टिप्पण्या"
+
+msgid "Benefits of a weekly physiotherapy session"
+msgstr "साप्ताहिक फिजिओथेरपी सत्राचे फायदे"
+
+msgid "Not all massages are created equal, and understanding the different techniques can help you select the best option for your needs."
+msgstr "सर्व मसाज समान असत नाहीत, आणि विविध तंत्रे समजून घेणे तुमच्या गरजांसाठी सर्वोत्तम पर्याय निवडण्यास मदत करू शकते."
+
+msgid "05 Nov 2024"
+msgstr "05 नोव्हेंबर 2024"
+
+msgid "10 Comments"
+msgstr "10 टिप्पण्या"
+
+msgid "Regular exercise can slow ageing process"
+msgstr "नियमित व्यायाम वय वाढण्याची प्रक्रिया मंदावू शकतो"
+
+msgid "Athletes push their bodies to the limit, and massage therapy can play a critical role in recovery and injury prevention."
+msgstr "क्रीडापटू त्यांच्या शरीराला कडेला ढकलतात, आणि मसाज थेरपी पुनर्प्राप्ती आणि इजा प्रतिबंधात महत्त्वाची भूमिका बजावू शकते."
+
+
+
