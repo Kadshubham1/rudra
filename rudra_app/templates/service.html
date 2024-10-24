@@ -67,29 +67,49 @@
         <div class="container-fluid position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
                 <a href="/" class="navbar-brand p-0">
-                    <h1 class="text-primary m-0"><i class="fas fa-star-of-life me-3"></i>R</h1>
-                    <!-- <img src="{% static 'assets/img/logo.png" alt="Logo"> -->
+                    
+                    <img src="{% static 'assets/img/Rudra-Logo.png' %}" alt="Logo">
+    
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="/" class="nav-item nav-link">Home</a>
+                        <a href="/" class="nav-item nav-link active">Home</a>
                         <a href="/about/" class="nav-item nav-link">About</a>
-                        <a href="/services/" class="nav-item nav-link active">Services</a>
+                        <a href="/services/" class="nav-item nav-link">Services</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu m-0">
                                 <a href="/appointment/" class="dropdown-item">Appointment</a>
-                                <a href="/features/" class="dropdown-item">Features</a>
+                                
                                 <a href="/blog/" class="dropdown-item">Our Blog</a>
-                                <a href="/team/" class="dropdown-item">Our Team</a>
-                                <a href="/testimonial/" class="dropdown-item">Testimonial</a>
+                                
+                                
                                 
                             </div>
                         </div>
                         <a href="/contact/" class="nav-item nav-link">Contact Us</a>
+                        
+                        <!-- Language Selector Dropdown -->
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                                <i class="fas fa-language me-2"></i>Language
+                            </a>
+                            <div class="dropdown-menu m-0">
+                                <a href="#" class="dropdown-item" onclick="changeLanguage('en')">English</a>
+                                <a href="#" class="dropdown-item" onclick="changeLanguage('hi')">हिन्दी (Hindi)</a>
+                                <a href="#" class="dropdown-item" onclick="changeLanguage('bn')">বাংলা (Bengali)</a>
+                                <a href="#" class="dropdown-item" onclick="changeLanguage('te')">తెలుగు (Telugu)</a>
+                                <a href="#" class="dropdown-item" onclick="changeLanguage('mr')">मराठी (Marathi)</a>
+                                <a href="#" class="dropdown-item" onclick="changeLanguage('ta')">தமிழ் (Tamil)</a>
+                                <a href="#" class="dropdown-item" onclick="changeLanguage('gu')">ગુજરાતી (Gujarati)</a>
+                                <a href="#" class="dropdown-item" onclick="changeLanguage('kn')">ಕನ್ನಡ (Kannada)</a>
+                                <a href="#" class="dropdown-item" onclick="changeLanguage('ml')">മലയാളം (Malayalam)</a>
+                                <a href="#" class="dropdown-item" onclick="changeLanguage('pa')">ਪੰਜਾਬੀ (Punjabi)</a>
+                            </div>
+                        </div>
                     </div>
                     <a href="/appointment/" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Book Appointment</a>
                 </div>
@@ -112,275 +132,287 @@
 
 
         <!-- Services Start -->
-        <div class="container-fluid service py-5">
-            <div class="container py-5">
-                <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="sub-style">
-                        <h4 class="sub-title px-3 mb-0">What We Do</h4>
-                    </div>
-                    <h1 class="display-3 mb-4">Our Service Given Physio Therapy By Expert</h1>
-                    
+     <div class="container-fluid service py-5">
+        <div class="container py-5">
+            <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="sub-style">
+                    <h4 class="sub-title px-3 mb-0">What We Do</h4>
                 </div>
-                <div class="row g-4 justify-content-center">
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="service-item rounded">
-                           <div class="service-img rounded-top">
-                                <img src="{% static 'assets/img/service-1.jpg' %}" class="img-fluid rounded-top w-100" alt="">
-                           </div>
-                            <div class="service-content rounded-bottom bg-light p-4">
-                                <div class="service-content-inner">
-                                    <h5 class="mb-4">Message Therapy</h5>
-                                    <p class="mb-4">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus, dolor qui ullam</p>
-                                    <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a>
-                                </div>
+
+                <p class="mb-0">Offer a variety of services like Swedish, Deep Tissue, Hot Stone, and Thai massages, designed to relax muscles, improve circulation, and relieve stress!</p>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item rounded">
+                        <div class="service-img rounded-top">
+                            <img src="{% static 'assets/img/service-8.jpg' %}" class="img-fluid rounded-top w-100" alt="">
+                        </div>
+                        <div class="service-content rounded-bottom bg-light p-4">
+                            <div class="service-content-inner">
+                                <h5 class="mb-4">Back Pain</h5>
+                                <p class="mb-4">Back pain affects a wide range of individuals across different age groups and can be influenced by various risk factors, including age, lack of exercise, and obesity. Recognizing the symptoms and effective management and treatment.</p>
+                                <!-- <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a> -->
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-item rounded">
-                           <div class="service-img rounded-top">
-                                <img src="{% static 'assets/img/service-2.jpg' %}" class="img-fluid rounded-top w-100" alt="">
-                           </div>
-                            <div class="service-content rounded-bottom bg-light p-4">
-                                <div class="service-content-inner">
-                                    <h5 class="mb-4">Physiotherapy</h5>
-                                    <p class="mb-4">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus, dolor qui ullam</p>
-                                    <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="service-item rounded">
-                           <div class="service-img rounded-top">
-                                <img src="{% static 'assets/img/service-3.jpg' %}" class="img-fluid rounded-top w-100" alt="">
-                           </div>
-                            <div class="service-content rounded-bottom bg-light p-4">
-                                <div class="service-content-inner">
-                                    <h5 class="mb-4">Heat & Cold Therapy</h5>
-                                    <p class="mb-4">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus, dolor qui ullam</p>
-                                    <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="service-item rounded">
-                           <div class="service-img rounded-top">
-                                <img src="{% static 'assets/img/service-4.jpg' %}" class="img-fluid rounded-top w-100" alt="">
-                           </div>
-                            <div class="service-content rounded-bottom bg-light p-4">
-                                <div class="service-content-inner">
-                                    <h5 class="mb-4">Chiropatic Therapy</h5>
-                                    <p class="mb-4">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus, dolor qui ullam</p>
-                                    <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="service-item rounded">
-                           <div class="service-img rounded-top">
-                                <img src="{% static 'assets/img/service-5.jpg' %}" class="img-fluid rounded-top w-100" alt="">
-                           </div>
-                            <div class="service-content rounded-bottom bg-light p-4">
-                                <div class="service-content-inner">
-                                    <h5 class="mb-4">Work Injuries</h5>
-                                    <p class="mb-4">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus, dolor qui ullam</p>
-                                    <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-item rounded">
-                           <div class="service-img rounded-top">
-                                <img src="{% static 'assets/img/service-6.jpg' %}" class="img-fluid rounded-top w-100" alt="">
-                           </div>
-                            <div class="service-content rounded-bottom bg-light p-4">
-                                <div class="service-content-inner">
-                                    <h5 class="mb-4">Spot Injuries</h5>
-                                    <p class="mb-4">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus, dolor qui ullam</p>
-                                    <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="service-item rounded">
-                           <div class="service-img rounded-top">
-                                <img src="{% static 'assets/img/service-7.jpg' %}" class="img-fluid rounded-top w-100" alt="">
-                           </div>
-                            <div class="service-content rounded-bottom bg-light p-4">
-                                <div class="service-content-inner">
-                                    <h5 class="mb-4">Regular Therapy</h5>
-                                    <p class="mb-4">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus, dolor qui ullam</p>
-                                    <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="service-item rounded">
-                           <div class="service-img rounded-top">
-                                <img src="{% static 'assets/img/service-8.jpg' %}" class="img-fluid rounded-top w-100" alt="">
-                           </div>
-                            <div class="service-content rounded-bottom bg-light p-4">
-                                <div class="service-content-inner">
-                                    <h5 class="mb-4">Back Pain</h5>
-                                    <p class="mb-4">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus, dolor qui ullam</p>
-                                    <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
-                        <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Services More</a>
                     </div>
                 </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded">
+                        <div class="service-img rounded-top">
+                            <img src="{% static 'assets/img/neck-gap1.jpg' %}" class="img-fluid rounded-top w-100" alt="">
+                        </div>
+                        <div class="service-content rounded-bottom bg-light p-4">
+                            <div class="service-content-inner">
+                                <h5 class="mb-4">Neck Gap</h5>
+                                <p class="mb-4">For neck and shoulder pain, massage therapy can be a very successful treatment. Experienced massage therapists can help reduce your stress, enhance blood flow, and encourage relaxation in the muscles surrounding the neck.</p>
+                                <!-- <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded">
+                        <div class="service-img rounded-top">
+                            <img src="{% static 'assets/img/service-6.jpg' %}" class="img-fluid rounded-top w-100" alt="">
+                        </div>
+                        <div class="service-content rounded-bottom bg-light p-4">
+                            <div class="service-content-inner">
+                                <h5 class="mb-4">Spinal gap</h5>
+                                <p class="mb-4">In massage therapy, proper spinal alignment is essential to avoid creating unnecessary gaps that can lead to discomfort.spine remains properly supported during treatments is key for relaxation and avoiding strain.</p>
+                                <!-- <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item rounded">
+                        <div class="service-img rounded-top">
+                            <img src="{% static 'assets/img/Tingling in hands1.jpg' %}" height="200px" class="img-fluid rounded-top w-100" alt="">
+                        </div>
+                        <div class="service-content rounded-bottom bg-light p-4">
+                            <div class="service-content-inner">
+                                <h5 class="mb-4">Tingling in hands</h5>
+                                <p class="mb-4">Tingling in the hands can often be addressed with the right massage techniques,It is often described as "pins and needles or numbness and can be caused as it is commonly related to muscle tension, nerve compression, or poor circulation. </p>
+                                <!-- <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded">
+                        <div class="service-img rounded-top">
+                            <img src="{% static 'assets/img/Joint inflammation (1).jpg' %}" class="img-fluid rounded-top w-100" alt="">
+                        </div>
+                        <div class="service-content rounded-bottom bg-light p-4">
+                            <div class="service-content-inner">
+                                <h5 class="mb-4">Joint inflammation</h5>
+                                <p class="mb-4">Joint inflammation, also known as arthritis, occurs when the immune system or damaged tissues release chemicals that cause swelling and pain in the joints.</p>
+                                <!-- <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded">
+                        <div class="service-img rounded-top">
+                            <img src="{% static 'assets/img/bones Gap.jpg' %}" class="img-fluid rounded-top w-100" alt="">
+                        </div>
+                        <div class="service-content rounded-bottom bg-light p-4">
+                            <div class="service-content-inner">
+                                <h5 class="mb-4">Bones Gap</h5>
+                                <p class="mb-4">Bone gap-related massage focuses on relieving tension around joints where there may be reduced space between bones, such as in the spine, shoulders, or hips. <br> </p>
+                                <!-- <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded">
+                        <div class="service-img rounded-top">
+                            <img src="{% static 'assets/img/knee-pain1.jpg' %}" class="img-fluid rounded-top w-100" alt="">
+                        </div>
+                        <div class="service-content rounded-bottom bg-light p-4">
+                            <div class="service-content-inner">
+                                <h5 class="mb-4">Knee Pain</h5>
+                                <p class="mb-4">Knee pain is a common condition that can affect individuals of all ages, often resulting from injuries, overuse, or underlying medical conditions like arthritis.</p>
+                                <!-- <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item rounded">
+                        <div class="service-img rounded-top">
+                            <img src="{% static 'assets/img/kidney-stone.jpg' %}" class="img-fluid rounded-top w-100" alt="">
+                        </div>
+                        <div class="service-content rounded-bottom bg-light p-4">
+                            <div class="service-content-inner">
+                                <h5 class="mb-4">kidney stone</h5>
+                                <p class="mb-4">Kidney stones are hard mineral and salt deposits that form in the kidneys,
+                                   
+                                      often causing severe and pain when they have move through the urinary tract causing significant pain .​ </p>
+                                <!-- <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
-        <!-- Services End -->
+    </div>
+    <!-- Services End -->
 
 
         <!-- Feature Start -->
-        <div class="container-fluid feature py-5">
-            <div class="container py-5">
-                <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="sub-style">
-                        <h4 class="sub-title px-3 mb-0">Why Choose Us</h4>
-                    </div>
-                    
-                    <p class="mb-0">At Rudra, we pride ourselves on offering personalized treatments tailored to each client's unique needs, whether you're seeking relaxation or targeted pain relief. Our licensed therapists use a variety of techniques in a calm, welcoming environment designed to promote healing and rejuvenation. With competitive pricing, flexible booking options, and a commitment to cleanliness and safety, we ensure every visit leaves you feeling refreshed and revitalized.</p>
+    <div class="container-fluid feature py-5">
+        <div class="container py-5">
+            <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="sub-style">
+                    <h4 class="sub-title px-3 mb-0">Why Choose Us</h4>
                 </div>
-                <div class="row g-4 justify-content-center">
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="row-cols-1 feature-item p-4">
-                            <div class="col-12">
-                                <div class="feature-icon mb-4">
-                                    <div class="p-3 d-inline-flex bg-white rounded">
-                                        <i class="fas fa-diagnoses fa-4x text-primary"></i>
-                                    </div>
+                <p class="mb-0">Discover why our massage center is your best choice for relaxation and wellness.</p>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <!-- Licensed Therapist -->
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="row-cols-1 feature-item p-4">
+                        <div class="col-12">
+                            <div class="feature-icon mb-4">
+                                <div class="p-3 d-inline-flex bg-white rounded">
+                                    <i class="fas fa-diagnoses fa-4x text-primary"></i>
                                 </div>
-                                <div class="feature-content d-flex flex-column">
-                                    <h5 class="mb-4">Licensed Therapist</h5>
-                                    <p class="mb-0">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus,</p>
-                                </div>
+                            </div>
+                            <div class="feature-content d-flex flex-column">
+                                <h5 class="mb-4">Licensed Therapist</h5>
+                                <p class="mb-0">Our team consists of certified professionals dedicated to your
+                                    well-being.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="row-cols-1 feature-item p-4">
-                            <div class="col-12">
-                                <div class="feature-icon mb-4">
-                                    <div class="p-3 d-inline-flex bg-white rounded">
-                                        <i class="fas fa-briefcase-medical fa-4x text-primary"></i>
-                                    </div>
+                </div>
+                <!-- Personalized Treatment -->
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="row-cols-1 feature-item p-4">
+                        <div class="col-12">
+                            <div class="feature-icon mb-4">
+                                <div class="p-3 d-inline-flex bg-white rounded">
+                                    <i class="fas fa-briefcase-medical fa-4x text-primary"></i>
                                 </div>
-                                <div class="feature-content d-flex flex-column">
-                                    <h5 class="mb-4">Personalized Treatment</h5>
-                                    <p class="mb-0">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus,</p>
-                                </div>
+                            </div>
+                            <div class="feature-content d-flex flex-column">
+                                <h5 class="mb-4">Personalized Treatment</h5>
+                                <p class="mb-0">We provide customized treatments tailored to your specific needs and
+                                    preferences.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="row-cols-1 feature-item p-4">
-                            <div class="col-12">
-                                <div class="feature-icon mb-4">
-                                    <div class="p-3 d-inline-flex bg-white rounded">
-                                        <i class="fas fa-hospital-user fa-4x text-primary"></i>
-                                    </div>
+                </div>
+                <!-- Therapy Goals -->
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row-cols-1 feature-item p-4">
+                        <div class="col-12">
+                            <div class="feature-icon mb-4">
+                                <div class="p-3 d-inline-flex bg-white rounded">
+                                    <i class="fas fa-hospital-user fa-4x text-primary"></i>
                                 </div>
-                                <div class="feature-content d-flex flex-column">
-                                    <h5 class="mb-4">Therapy Goals</h5>
-                                    <p class="mb-0">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus,</p>
-                                </div>
+                            </div>
+                            <div class="feature-content d-flex flex-column">
+                                <h5 class="mb-4">Therapy Goals</h5>
+                                <p class="mb-0">Our sessions focus on achieving your wellness goals, whether it’s stress
+                                    relief or pain management.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="row-cols-1 feature-item p-4">
-                            <div class="col-12">
-                                <div class="feature-icon mb-4">
-                                    <div class="p-3 d-inline-flex bg-white rounded">
-                                        <i class="fas fa-users fa-4x text-primary"></i>
-                                    </div>
+                </div>
+                <!-- Practitioners Network -->
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="row-cols-1 feature-item p-4">
+                        <div class="col-12">
+                            <div class="feature-icon mb-4">
+                                <div class="p-3 d-inline-flex bg-white rounded">
+                                    <i class="fas fa-users fa-4x text-primary"></i>
                                 </div>
-                                <div class="feature-content d-flex flex-column">
-                                    <h5 class="mb-4">Practitioners Network</h5>
-                                    <p class="mb-0">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus,</p>
-                                </div>
+                            </div>
+                            <div class="feature-content d-flex flex-column">
+                                <h5 class="mb-4">Practitioners Network</h5>
+                                <p class="mb-0">We work with a network of experienced therapists to offer a wide range
+                                    of massage styles.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="row-cols-1 feature-item p-4">
-                            <div class="col-12">
-                                <div class="feature-icon mb-4">
-                                    <div class="p-3 d-inline-flex bg-white rounded">
-                                        <i class="fas fa-spa fa-4x text-primary"></i>
-                                    </div>
+                </div>
+                <!-- Comfortable Center -->
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="row-cols-1 feature-item p-4">
+                        <div class="col-12">
+                            <div class="feature-icon mb-4">
+                                <div class="p-3 d-inline-flex bg-white rounded">
+                                    <i class="fas fa-spa fa-4x text-primary"></i>
                                 </div>
-                                <div class="feature-content d-flex flex-column">
-                                    <h5 class="mb-4">Comfortable Center</h5>
-                                    <p class="mb-0">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus,</p>
-                                </div>
+                            </div>
+                            <div class="feature-content d-flex flex-column">
+                                <h5 class="mb-4">Comfortable Center</h5>
+                                <p class="mb-0">Our spa-like atmosphere is designed to enhance relaxation and comfort
+                                    during your visit.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="row-cols-1 feature-item p-4">
-                            <div class="col-12">
-                                <div class="feature-icon mb-4">
-                                    <div class="p-3 d-inline-flex bg-white rounded">
-                                        <i class="fas fa-heart fa-4x text-primary"></i>
-                                    </div>
+                </div>
+                <!-- Experienced Staff -->
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="row-cols-1 feature-item p-4">
+                        <div class="col-12">
+                            <div class="feature-icon mb-4">
+                                <div class="p-3 d-inline-flex bg-white rounded">
+                                    <i class="fas fa-heart fa-4x text-primary"></i>
                                 </div>
-                                <div class="feature-content d-flex flex-column">
-                                    <h5 class="mb-4">Experienced Stuff</h5>
-                                    <p class="mb-0">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus,</p>
-                                </div>
+                            </div>
+                            <div class="feature-content d-flex flex-column">
+                                <h5 class="mb-4">Experienced Staff</h5>
+                                <p class="mb-0">Our friendly, experienced staff ensures you get the best care during
+                                    each session.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="row-cols-1 feature-item p-4">
-                            <div class="col-12">
-                                <div class="feature-icon mb-4">
-                                    <div class="p-3 d-inline-flex bg-white rounded">
-                                        <i class="fab fa-pied-piper fa-4x text-primary"></i>
-                                    </div>
+                </div>
+                <!-- Holistic Approach -->
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row-cols-1 feature-item p-4">
+                        <div class="col-12">
+                            <div class="feature-icon mb-4">
+                                <div class="p-3 d-inline-flex bg-white rounded">
+                                    <i class="fab fa-pied-piper fa-4x text-primary"></i>
                                 </div>
-                                <div class="feature-content d-flex flex-column">
-                                    <h5 class="mb-4">Therapy Goals</h5>
-                                    <p class="mb-0">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus,</p>
-                                </div>
+                            </div>
+                            <div class="feature-content d-flex flex-column">
+                                <h5 class="mb-4">Holistic Approach</h5>
+                                <p class="mb-0">We combine various techniques for a holistic approach to healing and
+                                    wellness.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="row-cols-1 feature-item p-4">
-                            <div class="col-12">
-                                <div class="feature-icon mb-4">
-                                    <div class="p-3 d-inline-flex bg-white rounded">
-                                        <i class="fas fa-user-md fa-4x text-primary"></i>
-                                    </div>
-                                </div>
-                                <div class="feature-content d-flex flex-column">
-                                    <h5 class="mb-4">Licensed Therapist</h5>
-                                    <p class="mb-0">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus,</p>
+                </div>
+                <!-- Licensed Therapist -->
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="row-cols-1 feature-item p-4">
+                        <div class="col-12">
+                            <div class="feature-icon mb-4">
+                                <div class="p-3 d-inline-flex bg-white rounded">
+                                    <i class="fas fa-user-md fa-4x text-primary"></i>
                                 </div>
                             </div>
+                            <div class="feature-content d-flex flex-column">
+                                <h5 class="mb-4">Professional Therapists</h5>
+                                <p class="mb-0">We have licensed therapists who are trained to provide specialized
+                                    massage therapy.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
-                        <a href="#" class="btn btn-primary rounded-pill text-white py-3 px-5">More Details</a>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Feature End -->
+    </div>
+    <!-- Feature End -->
 
 
         <!-- Testimonial Start -->
@@ -388,9 +420,9 @@
             <div class="container py-5">
                 <div class="section-title mb-5">
                     <div class="sub-style">
-                        <h4 class="sub-title text-white px-3 mb-0">Testimonial</h4>
+                        <h4 class="sub-title text-white px-3 mb-0">What Clients are Say</h4>
                     </div>
-                    
+                    <h6 class="display-3 mb-4"></h6>
                 </div>
                 <div class="testimonial-carousel owl-carousel">
                     <div class="testimonial-item">
@@ -398,11 +430,11 @@
                             <div class="testimonial-inner-img mb-4">
                                 <img src="{% static 'assets/img/testimonial-img.jpg' %}" class="img-fluid rounded-circle" alt="">
                             </div>
-                            <p class="text-white fs-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores nemo facilis tempora esse explicabo sed! Dignissimos quia ullam pariatur blanditiis sed voluptatum. Totam aut quidem laudantium tempora. Minima, saepe earum!
+                            <p class="text-white fs-7">"The massage therapy at Rudra Centre has been transformative for my chronic back pain. The therapists are highly skilled and professional. I've seen significant improvement in my mobility and overall well-being."
                             </p>
                             <div class="text-center">
-                                <h5 class="mb-2">John Abraham</h5>
-                                <p class="mb-2 text-white-50">New York, USA</p>
+                                <h5 class="mb-2">Rahul Sharma</h5>
+                                <p class="mb-2 text-white-50">Ahmednagar, Maharashtra</p>
                                 <div class="d-flex justify-content-center">
                                     <i class="fas fa-star text-secondary"></i>
                                     <i class="fas fa-star text-secondary"></i>
@@ -418,11 +450,11 @@
                             <div class="testimonial-inner-img mb-4">
                                 <img src="{% static 'assets/img/testimonial-img.jpg' %}" class="img-fluid rounded-circle" alt="">
                             </div>
-                            <p class="text-white fs-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores nemo facilis tempora esse explicabo sed! Dignissimos quia ullam pariatur blanditiis sed voluptatum. Totam aut quidem laudantium tempora. Minima, saepe earum!
+                            <p class="text-white fs-7">"Outstanding service and genuine care for patients. The traditional techniques combined with modern practices make Rudra Centre unique. My neck pain has significantly improved after regular sessions."
                             </p>
                             <div class="text-center">
-                                <h5 class="mb-2">John Abraham</h5>
-                                <p class="mb-2 text-white-50">New York, USA</p>
+                                <h5 class="mb-2">Priya Patel</h5>
+                                <p class="mb-2 text-white-50">Pune, Maharashtra</p>
                                 <div class="d-flex justify-content-center">
                                     <i class="fas fa-star text-secondary"></i>
                                     <i class="fas fa-star text-secondary"></i>
@@ -438,11 +470,11 @@
                             <div class="testimonial-inner-img mb-4">
                                 <img src="{% static 'assets/img/testimonial-img.jpg' %}" class="img-fluid rounded-circle" alt="">
                             </div>
-                            <p class="text-white fs-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores nemo facilis tempora esse explicabo sed! Dignissimos quia ullam pariatur blanditiis sed voluptatum. Totam aut quidem laudantium tempora. Minima, saepe earum!
+                            <p class="text-white fs-7">"I've been visiting Rudra Centre for the past 6 months for spinal treatment. The improvement in my condition has been remarkable. The staff is courteous and the environment is very peaceful."
                             </p>
                             <div class="text-center">
-                                <h5 class="mb-2">John Abraham</h5>
-                                <p class="mb-2 text-white-50">New York, USA</p>
+                                <h5 class="mb-2">Ajay Deshmukh</h5>
+                                <p class="mb-2 text-white-50">Nashik, Maharashtra</p>
                                 <div class="d-flex justify-content-center">
                                     <i class="fas fa-star text-secondary"></i>
                                     <i class="fas fa-star text-secondary"></i>
@@ -464,11 +496,12 @@
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="text-white mb-4"><i class="fas fa-star-of-life me-3"></i>Terapia</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorem impedit eos autem dolores laudantium quia, qui similique
-                            </p>
-                            <div class="d-flex align-items-center">
+                        <div class="footer-item d-flex flex-column align-items-center align-items-xl-start">
+                            <div class="logo-container mb-3 text-center w-100">
+                                <img src="{% static 'assets/img/Rudra-Logo.png' %}" alt="Logo" class="footer-logo">
+                            </div>
+                            <p class="text-center text-xl-start">At Rudra Massage Centre, we believe that true well-being comes from nurturing the mind, body, and spirit. Let us help you on your wellness journey.</p>
+                            <div class="social-icons d-flex justify-content-center justify-content-xl-start w-100">
                                 <i class="fas fa-share fa-2x text-white me-2"></i>
                                 <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -479,39 +512,44 @@
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
-                            <h4 class="mb-4 text-white">Quick Links</h4>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> About Us</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Contact Us</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Our Blog & News</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Our Team</a>
+                            <h4 class="mb-4 text-white text-center text-xl-start">Quick Links</h4>
+                            <div class="d-flex flex-column align-items-center align-items-xl-start">
+                                <a href="/about/"><i class="fas fa-angle-right me-2"></i> About Us</a>
+                                <a href="/contact/"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
+                                <a href=""><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
+                                <a href=""><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
+                                <a href="/blog/"><i class="fas fa-angle-right me-2"></i> Our Blog & News</a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
-                            <h4 class="mb-4 text-white">Terapia Services</h4>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> All Services</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Physiotherapy</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Diagnostics</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Manual Therapy</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Massage Therapy</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Rehabilitation</a>
+                            <h4 class="mb-4 text-white text-center text-xl-start">Rudra Services</h4>
+                            <div class="d-flex flex-column align-items-center align-items-xl-start">
+                                <a href=""><i class="fas fa-angle-right me-2"></i> Back Pain</a>
+                                <a href=""><i class="fas fa-angle-right me-2"></i> Neck Gap</a>
+                                <a href=""><i class="fas fa-angle-right me-2"></i> Spinal Gap</a>
+                                <a href=""><i class="fas fa-angle-right me-2"></i> Bones Gap</a>
+                                <a href=""><i class="fas fa-angle-right me-2"></i> Knee Pain</a>
+                                <a href=""><i class="fas fa-angle-right me-2"></i> Kidney Stone</a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
-                            <h4 class="mb-4 text-white">Contact Info</h4>
-                            <a href=""><i class="fa fa-map-marker-alt me-2"></i> HP Petrol Pump, Near Kanha Beakers, Nagar-Kalyan Road ,Bhalawani, Tal - Parner, Dist - Ahemednagar</a>
-                            <a href=""><i class="fas fa-envelope me-2"></i>rudrayurvedic1999@gmail.com</a>
-                            
-                            <a href=""><i class="fas fa-phone me-2"></i> + 9172618534</a>
-                            <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +9284740199</a>
+                            <h4 class="mb-4 text-white text-center text-xl-start">Contact Info</h4>
+                            <div class="d-flex flex-column align-items-center align-items-xl-start">
+                                <a href="" class="text-center text-xl-start"><i class="fa fa-map-marker-alt me-2"></i> HP Petrol Pump, Near Kanha Beakers, Nagar-Kalyan Road, Bhalawani, Tal - Parner, Dist - Ahemednagar</a>
+                                <a href=""><i class="fas fa-envelope me-2"></i>rudrayurvedic1999@gmail.com</a>
+                                <a href=""><i class="fas fa-phone me-2"></i> + 9172618534</a>
+                                <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +9284740199</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        
         <!-- Footer End -->
         
         <!-- Copyright Start -->
@@ -519,13 +557,13 @@
             <div class="container">
                 <div class="row g-4 align-items-center">
                     <div class="col-md-6 text-center text-md-start mb-md-0">
-                        <span class="text-white"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
+                        <span class="text-white"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Rudra Aayurvedic</a>, All right reserved.</span>
                     </div>
                     <div class="col-md-6 text-center text-md-end text-white">
                         <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
                         <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
                         <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                        Designed By <a class="border-bottom" href="#">AS Software Solutions</a>
                     </div>
                 </div>
             </div>

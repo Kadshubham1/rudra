@@ -796,7 +796,7 @@
 
 /*** testimonial Start ***/
 .testimonial {
-    background: linear-gradient(rgba(21, 223, 41, 0.9), rgba(39, 41, 42, 0.9)), url(../img/carousel-1.jpg);
+    background: linear-gradient(rgba(25, 119, 226, 0.806), rgba(191, 237, 116, 0.9)), url(../img/carousel-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1057,6 +1057,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    margin-top: 50px;
 }
 
 
@@ -1150,24 +1151,79 @@
 
 /*** Footer Start ***/
 .footer {
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/carousel-2.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.footer .footer-item a {
-    line-height: 35px;
-    color: var(--bs-body);
-    transition: 0.5s;
+    background: linear-gradient(rgb(10, 126, 233, 86%), rgba(0, 0, 0, 0.9)), url(../img/carousel-2.jpg);
+    color: white;
 }
 
-.footer .footer-item p {
-    line-height: 35px;
+.footer-logo {
+    width: 80px;
+    height: auto;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-right: 20px;
 }
 
-.footer .footer-item a:hover {
-    letter-spacing: 2px;
-    color: var(--bs-primary);
+.footer-item a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+    display: inline-block;
+}
+
+.footer-item a:hover {
+    color: var(--primary);
+}
+
+.btn-square {
+    width: 38px;
+    height: 38px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary);
+    border: none;
+}
+
+.btn-square:hover {
+    background: #14c1e8;
+}
+
+.social-icons {
+    gap: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1199px) {
+    .footer-item {
+        align-items: center;
+        text-align: center;
+    }
+    
+    .footer-item a {
+        text-align: center;
+    }
+    
+    .social-icons {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .container.py-5 {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+    
+    .footer-item {
+        margin-bottom: 2rem;
+    }
+    
+    .footer-logo {
+        margin: 0 auto 15px auto;
+    }
 }
 
 /*** Footer End ***/
@@ -1177,3 +1233,6 @@
     background: var(--bs-dark) !important;
 }
 /*** copyright end ***/
+
+
+
