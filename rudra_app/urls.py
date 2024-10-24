@@ -11,5 +11,5 @@ urlpatterns = [
     path('team/', views.team, name='team'),
     path('testimonial/', views.testmonial, name='testimonial'),
     path('contact/',views.contact, name='contact'),
-    path('change-language/', views.change_language, name='change_language'),
+    path('change-language/<str:language_code>/', views.change_language, name='change_language'),
 ]

@@ -132,7 +132,7 @@ $(document).ready(function() {
         e.preventDefault();
         $.ajax({
             type: 'POST',
-            url: '{% url "index" %}',
+            url: '/',
             data: $(this).serialize(),
             headers: {'X-Requested-With': 'XMLHttpRequest'},
             dataType: 'json',

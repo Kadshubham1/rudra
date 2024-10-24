@@ -110,15 +110,8 @@
                         </a>
                         <div class="dropdown-menu m-0">
                             <a href="#" class="dropdown-item" onclick="changeLanguage('en')">English</a>
-                            <a href="#" class="dropdown-item" onclick="changeLanguage('hi')">हिन्दी (Hindi)</a>
-                            <a href="#" class="dropdown-item" onclick="changeLanguage('bn')">বাংলা (Bengali)</a>
-                            <a href="#" class="dropdown-item" onclick="changeLanguage('te')">తెలుగు (Telugu)</a>
-                            <a href="#" class="dropdown-item" onclick="changeLanguage('mr')">मराठी (Marathi)</a>
-                            <a href="#" class="dropdown-item" onclick="changeLanguage('ta')">தமிழ் (Tamil)</a>
-                            <a href="#" class="dropdown-item" onclick="changeLanguage('gu')">ગુજરાતી (Gujarati)</a>
-                            <a href="#" class="dropdown-item" onclick="changeLanguage('kn')">ಕನ್ನಡ (Kannada)</a>
-                            <a href="#" class="dropdown-item" onclick="changeLanguage('ml')">മലയാളം (Malayalam)</a>
-                            <a href="#" class="dropdown-item" onclick="changeLanguage('pa')">ਪੰਜਾਬੀ (Punjabi)</a>
+                                <a href="#" class="dropdown-item" onclick="changeLanguage('hi')">हिन्दी (Hindi)</a>
+                                <a href="#" class="dropdown-item" onclick="changeLanguage('mr')">मराठी (Marathi)</a>
                         </div>
                     </div>
                 </div>
@@ -162,56 +155,35 @@
                     <p class="mb-4 text-white">Have questions about our massage therapy services or want to learn more
                         about our treatments? Fill out the form below, and our team will get back to you as soon as
                         possible!</p>
-                    <form>
-                        <div class="row g-3">
-                            <div class="col-lg-12 col-xl-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control bg-transparent border border-white" id="name"
-                                        placeholder="Your Name" required>
-                                    <label for="name">Your Name</label>
+                        <form id="appointmentForm" method="post">
+                            {% csrf_token %}
+                            <div class="row gy-3 gx-4">
+                                <div class="col-xl-6">
+                                    {{ form.first_name }}
+                                </div>
+                                <div class="col-xl-6">
+                                    {{ form.email }}
+                                </div>
+                                <div class="col-xl-6">
+                                    {{ form.phone }}
+                                </div>
+                                <div class="col-xl-6">
+                                    {{ form.gender }}
+                                </div>
+                                <div class="col-xl-6">
+                                    {{ form.date }}
+                                </div>
+                                <div class="col-xl-6">
+                                    {{ form.department }}
+                                </div>
+                                <div class="col-12">
+                                    {{ form.comments }}
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary text-white w-100 py-3 px-5">SUBMIT NOW</button>
                                 </div>
                             </div>
-                            <div class="col-lg-12 col-xl-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control bg-transparent border border-white"
-                                        id="email" placeholder="Your Email" required>
-                                    <label for="email">Your Email</label>
-                                </div>
-                            </div>
-                            <div class="col-lg-12 col-xl-6">
-                                <div class="form-floating">
-                                    <input type="tel" class="form-control bg-transparent border border-white" id="phone"
-                                        placeholder="Phone" required>
-                                    <label for="phone">Your Phone</label>
-                                </div>
-                            </div>
-                            <div class="col-lg-12 col-xl-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control bg-transparent border border-white"
-                                        id="project" placeholder="Project">
-                                    <label for="project">Your Project (if applicable)</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control bg-transparent border border-white"
-                                        id="subject" placeholder="Subject" required>
-                                    <label for="subject">Subject</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control bg-transparent border border-white"
-                                        placeholder="Leave a message here" id="message" style="height: 160px"
-                                        required></textarea>
-                                    <label for="message">Message</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-light text-primary w-100 py-3">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
+                        </form>
                 </div>
                 <div class="col-lg-2 col-xl-2 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="bg-transparent rounded">
@@ -268,70 +240,63 @@
     <br>
     <!-- Footer Start -->
     <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="footer-item d-flex flex-column align-items-center align-items-xl-start">
-                        <div class="logo-container mb-3 text-center w-100">
-                            <img src="{% static 'assets/img/Rudra-Logo.png' %}" alt="Logo" class="footer-logo">
-                        </div>
-                        <p class="text-center text-xl-start">At Rudra Massage Centre, we believe that true well-being
-                            comes from nurturing the mind, body, and spirit. Let us help you on your wellness journey.
-                        </p>
-                        <div class="social-icons d-flex justify-content-center justify-content-xl-start w-100">
-                            <i class="fas fa-share fa-2x text-white me-2"></i>
-                            <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i
-                                    class="fab fa-facebook-f"></i></a>
-                            <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i
-                                    class="fab fa-twitter"></i></a>
-                            <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i
-                                    class="fab fa-instagram"></i></a>
-                            <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i
-                                    class="fab fa-linkedin-in"></i></a>
-                        </div>
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column align-items-center align-items-xl-start">
+                    <div class="logo-container mb-3 text-center w-100">
+                        <img src="{% static 'assets/img/Rudra-Logo.png' %}" alt="{% trans "Logo" %}" class="footer-logo">
+                    </div>
+                    <p class="text-center text-xl-start">{% trans "At Rudra Massage Centre, we believe that true well-being comes from nurturing the mind, body, and spirit. Let us help you on your wellness journey." %}</p>
+                    <div class="social-icons d-flex justify-content-center justify-content-xl-start w-100">
+                        <i class="fas fa-share fa-2x text-white me-2"></i>
+                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="footer-item d-flex flex-column">
-                        <h4 class="mb-4 text-white text-center text-xl-start">Quick Links</h4>
-                        <div class="d-flex flex-column align-items-center align-items-xl-start">
-                            <a href="/about/"><i class="fas fa-angle-right me-2"></i> About Us</a>
-                            <a href="/contact/"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
-                            <a href="/blog/"><i class="fas fa-angle-right me-2"></i> Our Blog & News</a>
-                        </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="mb-4 text-white text-center text-xl-start">{% trans "Quick Links" %}</h4>
+                    <div class="d-flex flex-column align-items-center align-items-xl-start">
+                        <a href="/about/"><i class="fas fa-angle-right me-2"></i> {% trans "About Us" %}</a>
+                        <a href="/contact/"><i class="fas fa-angle-right me-2"></i> {% trans "Contact Us" %}</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> {% trans "Privacy Policy" %}</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> {% trans "Terms & Conditions" %}</a>
+                        <a href="/blog/"><i class="fas fa-angle-right me-2"></i> {% trans "Our Blog & News" %}</a>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="footer-item d-flex flex-column">
-                        <h4 class="mb-4 text-white text-center text-xl-start">Rudra Services</h4>
-                        <div class="d-flex flex-column align-items-center align-items-xl-start">
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Back Pain</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Neck Gap</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Spinal Gap</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Bones Gap</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Knee Pain</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Kidney Stone</a>
-                        </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="mb-4 text-white text-center text-xl-start">{% trans "Rudra Services" %}</h4>
+                    <div class="d-flex flex-column align-items-center align-items-xl-start">
+                        <a href=""><i class="fas fa-angle-right me-2"></i> {% trans "Back Pain" %}</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> {% trans "Neck Gap" %}</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> {% trans "Spinal Gap" %}</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> {% trans "Bones Gap" %}</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> {% trans "Knee Pain" %}</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> {% trans "Kidney Stone" %}</a>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="footer-item d-flex flex-column">
-                        <h4 class="mb-4 text-white text-center text-xl-start">Contact Info</h4>
-                        <div class="d-flex flex-column align-items-center align-items-xl-start">
-                            <a href="" class="text-center text-xl-start"><i class="fa fa-map-marker-alt me-2"></i> HP
-                                Petrol Pump, Near Kanha Beakers, Nagar-Kalyan Road, Bhalawani, Tal - Parner, Dist -
-                                Ahemednagar</a>
-                            <a href=""><i class="fas fa-envelope me-2"></i>rudrayurvedic1999@gmail.com</a>
-                            <a href=""><i class="fas fa-phone me-2"></i> + 9172618534</a>
-                            <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +9284740199</a>
-                        </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="mb-4 text-white text-center text-xl-start">{% trans "Contact Info" %}</h4>
+                    <div class="d-flex flex-column align-items-center align-items-xl-start">
+                        <a href="" class="text-center text-xl-start"><i class="fa fa-map-marker-alt me-2"></i> {% trans "HP Petrol Pump, Near Kanha Beakers, Nagar-Kalyan Road, Bhalawani, Tal - Parner, Dist - Ahemednagar" %}</a>
+                        <a href=""><i class="fas fa-envelope me-2"></i> {% trans "rudrayurvedic1999@gmail.com" %}</a>
+                        <a href=""><i class="fas fa-phone me-2"></i> {% trans "+ 9172618534" %}</a>
+                        <a href="" class="mb-3"><i class="fas fa-print me-2"></i> {% trans "+9284740199" %}</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
+
 
     <!-- Footer End -->
 
@@ -369,6 +334,61 @@
 
     <!-- Template Javascript -->
     <script src="{% static 'assets/js/main.js' %}"></script>
+    <script>
+        $(document).ready(function() {
+                $('#appointmentForm').on('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // Get references to button elements
+                    const submitBtn = document.getElementById('submitBtn');
+                    const buttonText = submitBtn.querySelector('.button-text');
+                    const spinner = submitBtn.querySelector('.spinner-border');
+                    
+                    // Disable button and show spinner
+                    submitBtn.disabled = true;
+                    buttonText.textContent = 'SUBMITTING...';
+                    spinner.classList.remove('d-none');
+            
+                    $.ajax({
+                        type: 'POST',
+                        url: '{% url "index" %}',
+                        data: $(this).serialize(),
+                        dataType: 'json',
+                        success: function(response) {
+                            if (response.success) {
+                                // Reset spinner and button state
+                                submitBtn.disabled = false;
+                                buttonText.textContent = 'SUBMIT NOW';
+                                spinner.classList.add('d-none');
+                                
+                                // Show success modal and reset form
+                                $('#successModal').modal('show');
+                                $('#appointmentForm')[0].reset();
+                            } else {
+                                // Handle errors
+                                submitBtn.disabled = false;
+                                buttonText.textContent = 'SUBMIT NOW';
+                                spinner.classList.add('d-none');
+                                
+                                console.log(response.errors);
+                                // Optionally show error message to user
+                                alert('There was an error submitting the form. Please try again.');
+                            }
+                        },
+                        error: function(xhr, errmsg, err) {
+                            // Reset spinner and button state on error
+                            submitBtn.disabled = false;
+                            buttonText.textContent = 'SUBMIT NOW';
+                            spinner.classList.add('d-none');
+                            
+                            console.log(xhr.status + ": " + xhr.responseText);
+                            // Optionally show error message to user
+                            alert('There was an error submitting the form. Please try again.');
+                        }
+                    });
+                });
+            });
+    </script>
 
 </body>
 

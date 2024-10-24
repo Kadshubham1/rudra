@@ -1,0 +1,171 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024 Rudra Aayurvedic
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-24 12:00+0000\n"
+"PO-Revision-Date: 2024-10-24 12:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: mr <LL@li.org>\n"
+"Language: mr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Home"
+msgstr "मुख्यपृष्ठ"
+
+msgid "About"
+msgstr "आमच्याबद्दल"
+
+msgid "Services"
+msgstr "सेवा पृष्ठे"
+
+msgid "Pages"
+msgstr "पृष्ठे"
+
+msgid "Contact Us"
+msgstr "संपर्क साधा"
+
+msgid "Language"
+msgstr "भाषा"
+
+msgid "Book Appointment"
+msgstr "अपॉईंटमेंट बुक करा"
+
+msgid "What We Do"
+msgstr "आम्ही काय करतो"
+
+msgid "Back Pain"
+msgstr "पाठ दुखणे"
+
+msgid "Back pain affects a wide range of individuals across different age groups and can be influenced by various risk factors, including age, lack of exercise, and obesity. Recognizing the symptoms and effective management and treatment."
+msgstr "पाठदुखी विविध वयोगटातील व्यक्तींना प्रभावित करते आणि वय, व्यायामाचा अभाव आणि लठ्ठपणा यासारख्या विविध जोखीम घटकांमुळे प्रभावित होऊ शकते. लक्षणे आणि प्रभावी व्यवस्थापन आणि उपचार ओळखणे."
+
+msgid "Neck Gap"
+msgstr "मानेतील गॅप"
+
+msgid "For neck and shoulder pain, massage therapy can be a very successful treatment. Experienced massage therapists can help reduce your stress, enhance blood flow, and encourage relaxation in the muscles surrounding the neck."
+msgstr "मान आणि खांद्याच्या दुखण्यासाठी मसाज थेरपी खूप यशस्वी उपचार असू शकते. अनुभवी मसाज थेरपिस्ट तुमचा ताण कमी करण्यास, रक्तप्रवाह वाढवण्यास आणि मानेभोवतीच्या स्नायूंमध्ये आराम करण्यास मदत करू शकतात."
+
+msgid "Spinal gap"
+msgstr "कण्यातील गॅप"
+
+msgid "In massage therapy, proper spinal alignment is essential to avoid creating unnecessary gaps that can lead to discomfort.spine remains properly supported during treatments is key for relaxation and avoiding strain."
+msgstr "मसाज थेरपीमध्ये, अनावश्यक गॅप टाळण्यासाठी योग्य कण्याची संरेखन आवश्यक आहे जे असुविधा निर्माण करू शकते. उपचारादरम्यान कणा योग्यरित्या समर्थित राहणे हे आराम आणि ताण टाळण्यासाठी महत्त्वाचे आहे."
+
+msgid "Tingling in hands"
+msgstr "हातात झणझणणे"
+
+msgid "Joint inflammation"
+msgstr "सांध्यांची सूज"
+
+msgid "Bones Gap"
+msgstr "हाडांमधील गॅप"
+
+msgid "Knee Pain"
+msgstr "गुडघेदुखी"
+
+msgid "kidney stone"
+msgstr "किडनी स्टोन"
+
+msgid "Ortho Care"
+msgstr "ऑर्थो केअर"
+
+msgid "Quick-action roll on for joint pain.Provides instant relief and lasting comfort."
+msgstr "सांध्यांच्या वेदनेसाठी क्विक-अॅक्शन रोल ऑन. त्वरित आराम आणि टिकाऊ आराम देते."
+
+msgid "Tulsi Drops"
+msgstr "तुळशी ड्रॉप्स"
+
+msgid "Natural Tulsi extract for immunity. Help respiratory health and detoxification"
+msgstr "रोगप्रतिकारशक्तीसाठी नैसर्गिक तुळशी एक्स्ट्रॅक्ट. श्वसन आरोग्य आणि डिटॉक्सिफिकेशनला मदत करते"
+
+msgid "Vaibhav Limint Oil"
+msgstr "वैभव लिमिंट तेल"
+
+msgid "Herbal Oil for pain relif.Alleviates joint discomfort and promotes relaxation"
+msgstr "वेदना निवारणासाठी हर्बल तेल. सांध्यांची असुविधा कमी करते आणि आराम वाढवते"
+
+msgid "Artho Plus +"
+msgstr "आर्थो प्लस +"
+
+msgid "Holistic Formula for joint health. Soothes pain, improves physical performance."
+msgstr "सांध्यांच्या आरोग्यासाठी होलिस्टिक फॉर्म्युला. वेदना शांत करते, शारीरिक कार्यक्षमता सुधारते."
+
+msgid "Artho Care Powder"
+msgstr "आर्थो केअर पावडर"
+
+msgid "Soothing blend for relaxation"
+msgstr "आरामासाठी शांत मिश्रण"
+
+msgid "Artho Care Pain Oil"
+msgstr "आर्थो केअर पेन ऑइल"
+
+msgid "Natural Oil for joint relif.Eases stiffness,Boosts Mobility"
+msgstr "सांध्यांच्या आरामासाठी नैसर्गिक तेल. ताठरता कमी करते, हालचाल वाढवते"
+
+msgid "Madhusudan Churn"
+msgstr "मधुसूदन चूर्ण"
+
+msgid "Ayurvedic blend for digestive health. Balances acidity, improves digestion"
+msgstr "पचनासाठी आयुर्वेदिक मिश्रण. अॅसिडिटी संतुलित करते, पचन सुधारते"
+
+msgid "Memohence"
+msgstr "मेमोहेन्स"
+
+msgid "Natural cleansing for all types"
+msgstr "सर्व प्रकारांसाठी नैसर्गिक क्लिन्जिंग"
+
+msgid "Select your gender"
+msgstr "तुमचे लिंग निवडा"
+
+msgid "Male"
+msgstr "पुरुष"
+
+msgid "Female"
+msgstr "स्त्री"
+
+msgid "Other"
+msgstr "इतर"
+
+msgid "Select department"
+msgstr "विभाग निवडा"
+
+msgid "Physiotherapy"
+msgstr "फिजिओथेरपी"
+
+msgid "Physical Health"
+msgstr "शारीरिक आरोग्य"
+
+msgid "Treatments"
+msgstr "उपचार"
+
+msgid "All rights reserved."
+msgstr "सर्व हक्क राखीव."
+
+msgid "Designed By"
+msgstr "डिझाइन केलेले"
+
+msgid "Tingling in the hands can often be addressed with the right massage techniques,It is often described as pins and needles or numbness and can be caused as it is commonly related to muscle tension, nerve compression, or poor circulation."
+msgstr "हातांमध्ये सुन्नपणा योग्य मालिश तंत्रांनी कमी केला जाऊ शकतो. यास 'सुई टोचल्यासारखे' किंवा सुन्नपणा असे वर्णन केले जाते आणि हे स्नायू ताण, तंत्रिका दाब, किंवा खराब रक्तप्रवाहाशी संबंधित असू शकते."
+
+msgid "Offer a variety of services like Swedish, Deep Tissue, Hot Stone, and Thai massages, designed to relax muscles, improve circulation, and relieve stress!"
+msgstr "स्वीडिश, डीप टिश्यू, हॉट स्टोन, आणि थाई मसाजसारख्या विविध सेवांचा लाभ घ्या, ज्या स्नायू सैल करण्यासाठी, रक्ताभिसरण सुधारण्यासाठी आणि तणाव कमी करण्यासाठी डिझाइन केल्या आहेत!"
+
+msgid "Joint inflammation, also known as arthritis, occurs when the immune system or damaged tissues release chemicals that cause swelling and pain in the joints."
+msgstr "संयुक्तांची जळजळ, ज्याला आर्थरायटिस असे म्हणतात, तेव्हा इम्यून प्रणाली किंवा हानी झालेल्या तंत्रिकांनी रसायने सोडली जातात, ज्यामुळे सांधेदुखी आणि सूज येते."
+
+msgid "Bone gap-related massage focuses on relieving tension around joints where there may be reduced space between bones, such as in the spine, shoulders, or hips."
+msgstr "हाडांच्या गॅपशी संबंधित मालिश तीव्रता कमी करण्यावर लक्ष केंद्रित करते, जिथे हाडांमध्ये कमी जागा असू शकते, जसे की रीढ़, खांदे किंवा कंबरेत."
+
+msgid "Knee pain is a common condition that can affect individuals of all ages, often resulting from injuries, overuse, or underlying medical conditions like arthritis."
+msgstr "गाठणीतील दुखापत एक सामान्य समस्या आहे, जी सर्व वयोगटातील व्यक्तींवर प्रभाव टाकू शकते, बहुधा जखमांमुळे, अधिक वापरामुळे, किंवा आर्थरायटिससारख्या अंतर्गत वैद्यकीय स्थितींमुळे."
+
+msgid "Kidney stones are hard mineral and salt deposits that form in the kidneys,often causing severe pain when they move through the urinary tract causing significant pain ."
+msgstr "किडनी स्टोन्स म्हणजे किडनीमध्ये बनणारे कठोर खनिज आणि मीठाचे ठिपके, जे मूत्रमार्गातून हलत असताना तीव्र वेदना निर्माण करतात."

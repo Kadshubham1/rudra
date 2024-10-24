@@ -13,23 +13,11 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 from pathlib import Path
 from django.utils.translation import gettext_lazy as _
 
-LANGUAGES = [
-    ('en', _('English')),
-    ('hi', _('Hindi')),
-    ('bn', _('Bengali')),
-    ('te', _('Telugu')),
-    ('mr', _('Marathi')),
-    ('ta', _('Tamil')),
-    ('gu', _('Gujarati')),
-    ('kn', _('Kannada')),
-    ('ml', _('Malayalam')),
-    ('pa', _('Punjabi')),
-]
-
-
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+
+
 
 
 # Quick-start development settings - unsuitable for production
@@ -65,10 +53,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-]
-
-LOCALE_PATHS = [
-    BASE_DIR / 'locale',
 ]
 
 ROOT_URLCONF = 'rudra.urls'
@@ -129,11 +113,11 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'amolbrand00@gmail.com'
-EMAIL_HOST_PASSWORD = 'seqd ibte umwz cfyh'
+EMAIL_HOST_USER = 'rudrayurvedic1999@gmail.com'
+EMAIL_HOST_PASSWORD = 'txae jmrq zhsp yxxe'
 
-DEFAULT_FROM_EMAIL = 'amolbrand00@gmail.com'
-ADMIN_EMAIL = 'shubhamkad622@gmail.com'
+DEFAULT_FROM_EMAIL = 'rudrayurvedic1999@gmail.com'
+ADMIN_EMAIL = 'rudrayurvedic1999@gmail.com'
 
 
 
@@ -148,7 +132,22 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
+LANGUAGES = [
+    ('en', _('English')),
+    ('hi', _('Hindi')),
+    ('mr', _('Marathi')),
+]
 
+USE_I18N = True
+USE_L10N = True
+
+LOCALE_PATHS = [
+    BASE_DIR / 'locale',
+]
+
+
+LANGUAGE_COOKIE_NAME = 'django_language'
+LANGUAGE_COOKIE_AGE = None
 import os
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
