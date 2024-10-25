@@ -236,6 +236,25 @@ msgstr "आरामासाठी शांत मिश्रण."
 msgid "Pain OilCooling Massage Oil"
 msgstr "दुखाच्या तेल-कूलिंग मसाज ऑईल"
 
+msgid "Privacy Policy"
+msgstr "गोपनीयता धोरण"
+
+msgid "Terms & Conditions"
+msgstr "नियम आणि अटी"
+
+msgid "Our Blog & News"
+msgstr "ब्लॉग आणि बातम्या"
+
+msgid "Spinal Gap"
+msgstr "मणक्यामधील गॅप"
+
+msgid "Kidney Stone"
+msgstr "मूत्रखडा"
+
+msgid "Welcome to Rudra Aurvedic , where we specialize in promoting relaxation, healing, and well-being through expert massage therapy. With over 20 year of experience in the industry, our center is committed to providing a peaceful and rejuvenating environment where every client receives personalized attention and care."
+msgstr "रुद्र आयुर्वेदिक मध्ये आपले स्वागत आहे, जेथे आम्ही तज्ञ मसाज थेरपीद्वारे आराम, उपचार आणि सुदृढता वाढवण्यात विशेषज्ञता बाळगतो. उद्योगातील २० वर्षांहून अधिक अनुभवासह, आमचे केंद्र शांत आणि ताजेतवाने करणारे वातावरण प्रदान करण्यास वचनबद्ध आहे जिथे प्रत्येक ग्राहकाला वैयक्तिक लक्ष आणि काळजी मिळते."
+
+
 msgid "Natural Oil for joint relief. Eases stiffness, boosts mobility."
 msgstr "सांधेदुखी साठी नैसर्गिक तेल. कडकपणा कमी करतो, गतिशीलता वाढवतो."
 
@@ -376,3 +395,5 @@ msgid "Book Your Healing Session"
 msgstr "आपला उपचार सत्र बुक करा"
 
 
+msgid "At Rudra Massage Centre, we believe that true well-being comes from nurturing the mind, body, and spirit. Let us help you on your wellness journey."
+msgstr "रुद्र मसाज सेंटर येथे, आमचा विश्वास आहे की खरी सुदृढता ही मन, शरीर आणि आत्म्याच्या पोषणातून येते. आपल्या सुदृढतेच्या प्रवासात आम्ही आपली मदत करू."

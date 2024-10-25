@@ -230,14 +230,60 @@ msgstr "05 नवम्बर 2024"
 msgid "10 Comments"
 msgstr "10 टिप्पणियाँ"
 
+msgid "Spinal Gap"
+msgstr "रीढ़ की हड्डी में अंतर"
+
+msgid "A condition where there is abnormal spacing between vertebrae in the spine, which can cause pain and discomfort."
+msgstr "एक स्थिति जहां रीढ़ की हड्डी में कशेरुकाओं के बीच असामान्य अंतर होता है, जो दर्द और तकलीफ का कारण बन सकता है।"
+
+msgid "Bones Gap"
+msgstr "हड्डियों में अंतर"
+
+msgid "A condition where bones have unusual spacing or alignment, potentially causing mobility issues and pain."
+msgstr "एक स्थिति जहां हड्डियों में असामान्य अंतर या संरेखण होता है, जो गतिशीलता की समस्याएं और दर्द पैदा कर सकता है।"
+
+msgid "Knee Pain"
+msgstr "घुटने का दर्द"
+
+msgid "Discomfort or pain in the knee joint that can affect movement and daily activities."
+msgstr "घुटने के जोड़ में तकलीफ या दर्द जो चलने-फिरने और दैनिक गतिविधियों को प्रभावित कर सकता है।"
+
+msgid "Kidney Stone"
+msgstr "गुर्दे की पथरी"
+
+msgid "At Rudra Massage Centre, we believe that true well-being comes from nurturing the mind, body, and spirit. Let us help you on your wellness journey."
+msgstr "रुद्र मसाज सेंटर में, हमारा मानना है कि सच्चा कल्याण मन, शरीर और आत्मा की देखभाल से आता है। आपकी wellness यात्रा में हम आपकी मदद करें।"
+
+
 msgid "Regular exercise can slow ageing process"
 msgstr "नियमित व्यायाम उम्र बढ़ने की प्रक्रिया को धीमा कर सकता है"
 
 msgid "Athletes push their bodies to the limit, and massage therapy can play a critical role in recovery and injury prevention."
 msgstr "खिलाड़ी अपने शरीर को सीमा तक धकेलते हैं, और मसाज थेरपी पुनर्प्राप्ति और चोटों की रोकथाम में महत्वपूर्ण भूमिका निभा सकती है।"
 
+msgid "Joint Inflammation"
+msgstr "जोड़ों में सूजन"
 
+msgid "Privacy Policy"
+msgstr "गोपनीयता नीति"
 
+msgid "Our Privacy Policy explains how we collect, use, and protect your personal information."
+msgstr "हमारी गोपनीयता नीति बताती है कि हम आपकी व्यक्तिगत जानकारी को कैसे एकत्र, उपयोग और सुरक्षित करते हैं।"
+
+msgid "Terms & Conditions"
+msgstr "नियम और शर्तें"
+
+msgid "Please read our Terms & Conditions carefully before using our services."
+msgstr "कृपया हमारी सेवाओं का उपयोग करने से पहले हमारे नियम और शर्तें ध्यान से पढ़ें।"
+
+msgid "Our Blog & News"
+msgstr "हमारा ब्लॉग और समाचार"
+
+msgid "Stay updated with our latest articles, health tips, and news."
+msgstr "हमारे नवीनतम लेख, स्वास्थ्य टिप्स और समाचारों से अपडेट रहें।"
+
+msgid "Welcome to Rudra Aurvedic , where we specialize in promoting relaxation, healing, and well-being through expert massage therapy. With over 20 year of experience in the industry, our center is committed to providing a peaceful and rejuvenating environment where every client receives personalized attention and care."
+msgstr "रुद्र आयुर्वेदिक में आपका स्वागत है, जहाँ हम विशेषज्ञ मालिश चिकित्सा के माध्यम से आराम, स्वास्थ्य और तंदुरुस्ती को बढ़ावा देने में विशेषज्ञता रखते हैं। उद्योग में 20 वर्षों से अधिक के अनुभव के साथ, हमारा केंद्र एक शांतिपूर्ण और ताज़गीभरा वातावरण प्रदान करने के लिए प्रतिबद्ध है जहाँ हर ग्राहक को व्यक्तिगत ध्यान और देखभाल मिलती है।"
 
 
 msgid "Tingling in the hands can often be addressed with the right massage techniques. It is often described as pins and needles or numbness and can be caused as it is commonly related to muscle tension, nerve compression, or poor circulation."
