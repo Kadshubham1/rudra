@@ -50,23 +50,24 @@
         <div class="row gx-0 align-items-center" style="height: 45px;">
             <div class="col-lg-8 text-center text-lg-start mb-lg-0">
                 <div class="d-flex flex-wrap">
-                    <a href="#" class="text-light me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>
+                    <a href="" class="text-light me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>
                         Location</a>
-                    <a href="#" class="text-light me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+
+                    <a href="" class="text-light me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+
                         9172618534</a>
-                    <a href="#" class="text-light me-0"><i
+                    <a href="" class="text-light me-0"><i
                             class="fas fa-envelope text-primary me-2"></i>rudrayurvedic1999@gmail.com</a>
                 </div>
             </div>
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-flex align-items-center justify-content-end">
-                    <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i
+                    <a href="https://www.instagram.com/rudra_ayurvedic_massage?igsh=MWU4OTlrOHkwY3kxaw==" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i
+                        class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/goraksh.dattatryblavre?mibextid=kFxxJD" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i
                             class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i
-                            class="fab fa-twitter"></i></a>
-                    <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i
-                            class="fab fa-instagram"></i></a>
-                    <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-0"><i
+                    <a href="https://youtube.com/@rudra1003?si=AuQG6_06Ol9Bsbbg" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i
+                            class="fab fa-youtube"></i></a>
+                    
+                    <a href="" class="btn btn-light btn-square border rounded-circle nav-fill me-0"><i
                             class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
@@ -139,44 +140,33 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
                     <div class="about-img pb-5 ps-5">
-                        <img src="{% static 'assets/img/about-1.jpg' %}" class="img-fluid rounded w-100"
-                            style="object-fit: cover;" alt="Image">
+                        <img src="{% static 'assets/img/about-1.jpg' %}" class="img-fluid rounded w-100" style="object-fit: cover;"
+                            alt="Image">
                         <div class="about-img-inner">
-                            <img src="{% static 'assets/img/about-2.jpg' %}"
-                                class="img-fluid rounded-circle w-100 h-100" alt="Image">
+                            <img src="{% static 'assets/img/about-2.jpg' %}" class="img-fluid rounded-circle w-100 h-100" alt="Image">
                         </div>
-                        <div class="about-experience">20 years experience</div>
+                        <div class="about-experience">{% trans "20 years experience" %}</div>
                     </div>
                 </div>
                 <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.4s">
                     <div class="section-title text-start mb-5">
-                        <h4 class="sub-title pe-3 mb-0">About Us</h4>
+                        <h4 class="sub-title pe-3 mb-0">{% trans "About Us" %}</h4>
                         <!-- <h1 class="display-3 mb-4">We are Ready to Help Improve Your Treatment.</h1> -->
-                        <p class="mb-4">Welcome to Rudra Aurvedic , where we specialize in promoting relaxation,
-                            healing, and well-being through expert massage therapy. With over 20 year of experience in
-                            the industry, our center is committed to providing a peaceful and rejuvenating environment
-                            where every client receives personalized attention and care.</p>
-                        <p class="mb-4">Our team of highly skilled and certified massage therapists brings extensive
-                            knowledge and expertise to each session. We offer a variety of therapeutic services, Back
-                            Pain, Bones Gap, Head pressing, kidney stone, and reflexology massages, tailored to meet
-                            your unique needs—whether it's stress relief, pain management, or simply a moment of
-                            tranquility.</p>
+                        <p class="mb-4">{% trans "Welcome to Rudra Aurvedic , where we specialize in promoting relaxation, healing, and well-being through expert massage therapy. With over 20 year of experience in the industry, our center is committed to providing a peaceful and rejuvenating environment where every client receives personalized attention and care." %}</p>
+                        <p class="mb-4">{% trans "Our team of highly skilled and certified massage therapists brings extensive knowledge and expertise to each session. We offer a variety of therapeutic services, Back Pain, Bones Gap, Head pressing, kidney stone, and reflexology massages, tailored to meet your unique needs—whether it's stress relief, pain management, or simply a moment of tranquility." %}</p>
                         <div class="mb-4">
-                            <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i> At Rudra Aurvedic,
-                                your well-being is our priority. Our years of experience have taught us the art of
-                                balancing traditional massage techniques with modern approaches to health, ensuring you
-                                leave feeling refreshed, relaxed, and restored.</p>
-                            <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i> Join us and
-                                experience the healing power of touch, perfected over years of dedicated service.</p>
-
+                            <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i> {% trans "At Rudra Aurvedic, your well-being is our priority. Our years of experience have taught us the art of balancing traditional massage techniques with modern approaches to health, ensuring you leave feeling refreshed, relaxed, and restored." %}</p>
+                            <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i> {% trans "Join us and experience the healing power of touch, perfected over years of dedicated service." %}</p>
+                            
                         </div>
-
+                        {% comment %} <a href="/about/" class="btn btn-primary rounded-pill text-white py-3 px-5">Discover More</a> {% endcomment %}
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- About End -->
+
 
 
     <!-- Team Start -->
@@ -285,9 +275,9 @@
         <div class="container py-5">
             <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="sub-style">
-                    <h4 class="sub-title px-3 mb-0">Why Choose Us</h4>
+                    <h4 class="sub-title px-3 mb-0">{% trans "Why Choose Us" %}</h4>
                 </div>
-                <p class="mb-0">Discover why our massage center is your best choice for relaxation and wellness.</p>
+                <p class="mb-0">{% trans "Discover why our massage center is your best choice for relaxation and wellness." %}</p>
             </div>
             <div class="row g-4 justify-content-center">
                 <!-- Licensed Therapist -->
@@ -300,9 +290,8 @@
                                 </div>
                             </div>
                             <div class="feature-content d-flex flex-column">
-                                <h5 class="mb-4">Licensed Therapist</h5>
-                                <p class="mb-0">Our team consists of certified professionals dedicated to your
-                                    well-being.</p>
+                                <h5 class="mb-4">{% trans "Licensed Therapist" %}</h5>
+                                <p class="mb-0">{% trans "Our team consists of certified professionals dedicated to your well-being." %}</p>
                             </div>
                         </div>
                     </div>
@@ -317,9 +306,8 @@
                                 </div>
                             </div>
                             <div class="feature-content d-flex flex-column">
-                                <h5 class="mb-4">Personalized Treatment</h5>
-                                <p class="mb-0">We provide customized treatments tailored to your specific needs and
-                                    preferences.</p>
+                                <h5 class="mb-4">{% trans "Personalized Treatment" %}</h5>
+                                <p class="mb-0">{% trans "We provide customized treatments tailored to your specific needs and preferences." %}</p>
                             </div>
                         </div>
                     </div>
@@ -334,9 +322,8 @@
                                 </div>
                             </div>
                             <div class="feature-content d-flex flex-column">
-                                <h5 class="mb-4">Therapy Goals</h5>
-                                <p class="mb-0">Our sessions focus on achieving your wellness goals, whether it’s stress
-                                    relief or pain management.</p>
+                                <h5 class="mb-4">{% trans "Therapy Goals" %}</h5>
+                                <p class="mb-0">{% trans "Our sessions focus on achieving your wellness goals, whether it’s stress relief or pain management." %}</p>
                             </div>
                         </div>
                     </div>
@@ -351,9 +338,8 @@
                                 </div>
                             </div>
                             <div class="feature-content d-flex flex-column">
-                                <h5 class="mb-4">Practitioners Network</h5>
-                                <p class="mb-0">We work with a network of experienced therapists to offer a wide range
-                                    of massage styles.</p>
+                                <h5 class="mb-4">{% trans "Practitioners Network" %}</h5>
+                                <p class="mb-0">{% trans "We work with a network of experienced therapists to offer a wide range of massage styles." %}</p>
                             </div>
                         </div>
                     </div>
@@ -368,9 +354,8 @@
                                 </div>
                             </div>
                             <div class="feature-content d-flex flex-column">
-                                <h5 class="mb-4">Comfortable Center</h5>
-                                <p class="mb-0">Our spa-like atmosphere is designed to enhance relaxation and comfort
-                                    during your visit.</p>
+                                <h5 class="mb-4">{% trans "Comfortable Center" %}</h5>
+                                <p class="mb-0">{% trans "Our spa-like atmosphere is designed to enhance relaxation and comfort during your visit." %}</p>
                             </div>
                         </div>
                     </div>
@@ -385,9 +370,8 @@
                                 </div>
                             </div>
                             <div class="feature-content d-flex flex-column">
-                                <h5 class="mb-4">Experienced Staff</h5>
-                                <p class="mb-0">Our friendly, experienced staff ensures you get the best care during
-                                    each session.</p>
+                                <h5 class="mb-4">{% trans "Experienced Staff" %}</h5>
+                                <p class="mb-0">{% trans "Our friendly, experienced staff ensures you get the best care during each session." %}</p>
                             </div>
                         </div>
                     </div>
@@ -402,14 +386,13 @@
                                 </div>
                             </div>
                             <div class="feature-content d-flex flex-column">
-                                <h5 class="mb-4">Holistic Approach</h5>
-                                <p class="mb-0">We combine various techniques for a holistic approach to healing and
-                                    wellness.</p>
+                                <h5 class="mb-4">{% trans "Holistic Approach" %}</h5>
+                                <p class="mb-0">{% trans "We combine various techniques for a holistic approach to healing and wellness." %}</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Licensed Therapist -->
+                <!-- Professional Therapists -->
                 <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="row-cols-1 feature-item p-4">
                         <div class="col-12">
@@ -419,9 +402,8 @@
                                 </div>
                             </div>
                             <div class="feature-content d-flex flex-column">
-                                <h5 class="mb-4">Professional Therapists</h5>
-                                <p class="mb-0">We have licensed therapists who are trained to provide specialized
-                                    massage therapy.</p>
+                                <h5 class="mb-4">{% trans "Professional Therapists" %}</h5>
+                                <p class="mb-0">{% trans "We have licensed therapists who are trained to provide specialized massage therapy." %}</p>
                             </div>
                         </div>
                     </div>
@@ -429,6 +411,7 @@
             </div>
         </div>
     </div>
+    
     <!-- Feature End -->
 
 
@@ -445,9 +428,9 @@
                     <p class="text-center text-xl-start">{% trans "At Rudra Massage Centre, we believe that true well-being comes from nurturing the mind, body, and spirit. Let us help you on your wellness journey." %}</p>
                     <div class="social-icons d-flex justify-content-center justify-content-xl-start w-100">
                         <i class="fas fa-share fa-2x text-white me-2"></i>
-                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href="https://www.facebook.com/goraksh.dattatryblavre?mibextid=kFxxJD"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href="https://youtube.com/@rudra1003?si=AuQG6_06Ol9Bsbbg"><i class="fab fa-youtube"></i></a>
+                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href="https://www.instagram.com/rudra_ayurvedic_massage?igsh=MWU4OTlrOHkwY3kxaw=="><i class="fab fa-instagram"></i></a>
                         <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>

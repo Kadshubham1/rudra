@@ -297,4 +297,82 @@ msgid "Athletes push their bodies to the limit, and massage therapy can play a c
 msgstr "क्रीडापटू त्यांच्या शरीराला कडेला ढकलतात, आणि मसाज थेरपी पुनर्प्राप्ती आणि इजा प्रतिबंधात महत्त्वाची भूमिका बजावू शकते."
 
 
+msgid "Why Choose Us"
+msgstr "आम्हाला का निवडा"
+
+msgid "Discover why our massage center is your best choice for relaxation and wellness."
+msgstr "आपल्या विश्रांती आणि आरोग्यासाठी आमचे मसाज केंद्र सर्वोत्तम पर्याय का आहे ते जाणून घ्या."
+
+msgid "Licensed Therapist"
+msgstr "परवाना धारक थेरपिस्ट"
+
+msgid "Our team consists of certified professionals dedicated to your well-being."
+msgstr "आमच्या टीममध्ये आपल्याच्या आरोग्यासाठी समर्पित प्रमाणित व्यावसायिकांचा समावेश आहे."
+
+msgid "Personalized Treatment"
+msgstr "वैयक्तिकृत उपचार"
+
+msgid "We provide customized treatments tailored to your specific needs and preferences."
+msgstr "आम्ही आपल्या विशिष्ट आवश्यकतांनुसार आणि पसंतीनुसार वैयक्तिकृत उपचार प्रदान करतो."
+
+msgid "Therapy Goals"
+msgstr "उपचाराचे उद्दिष्ट"
+
+msgid "Our sessions focus on achieving your wellness goals, whether it’s stress relief or pain management."
+msgstr "आमचे सत्र आपल्या आरोग्याच्या उद्दिष्टांना साध्य करण्यावर केंद्रित असते, ते ताण मुक्तता असो वा वेदना व्यवस्थापन."
+
+msgid "Practitioners Network"
+msgstr "प्रॅक्टिशनर्स नेटवर्क"
+
+msgid "We work with a network of experienced therapists to offer a wide range of massage styles."
+msgstr "आम्ही अनुभवी थेरपिस्टच्या नेटवर्कसह काम करतो ज्यामुळे विविध प्रकारच्या मसाज शैलींना ऑफर करता येईल."
+
+msgid "Comfortable Center"
+msgstr "सुविधाजनक केंद्र"
+
+msgid "Our spa-like atmosphere is designed to enhance relaxation and comfort during your visit."
+msgstr "आमचे स्पा सारखे वातावरण आपल्या भेटीच्या वेळी विश्रांती आणि सोय वाढवण्यासाठी तयार केले आहे."
+
+msgid "Experienced Staff"
+msgstr "अनुभवी कर्मचारी"
+
+msgid "Our friendly, experienced staff ensures you get the best care during each session."
+msgstr "आमचा मित्रत्वाचा आणि अनुभवी कर्मचारी प्रत्येक सत्रात आपल्याला सर्वोत्तम काळजी मिळेल याची खात्री करतो."
+
+msgid "Holistic Approach"
+msgstr "समग्र दृष्टिकोन"
+
+msgid "We combine various techniques for a holistic approach to healing and wellness."
+msgstr "आम्ही उपचार आणि आरोग्यासाठी समग्र दृष्टिकोन घेण्यासाठी विविध तंत्रांचा वापर करतो."
+
+msgid "Professional Therapists"
+msgstr "व्यावसायिक थेरपिस्ट"
+
+msgid "We have licensed therapists who are trained to provide specialized massage therapy."
+msgstr "आमच्याकडे परवाना धारक थेरपिस्ट आहेत जे विशेष मालिश थेरपी प्रदान करण्यासाठी प्रशिक्षित आहेत."
+
+msgid "Ancient Healing Through Ayurvedic Massage"
+msgstr "आयुर्वेदिक मसाजद्वारे प्राचीन उपचार"
+
+msgid "Experience the transformative power of traditional Ayurvedic massage therapy, where ancient wisdom meets modern wellness. Our therapeutic treatments balance your doshas (Vata, Pitta, and Kapha) while promoting deep relaxation and healing."
+msgstr "पारंपरिक आयुर्वेदिक मसाज थेरपीची परिवर्तनकारी शक्ती अनुभवा, जिथे प्राचीन ज्ञान आधुनिक आरोग्याशी एकत्र येते. आमचे उपचारात्मक सत्र आपल्या दोषांना (वात, पित्त आणि कफ) संतुलित करतात आणि गहन विश्रांती आणि उपचाराला प्रोत्साहन देतात."
+
+msgid "Abhyanga Massage"
+msgstr "अभ्यंग मसाज"
+
+msgid "Full body warm oil massage that improves circulation, promotes relaxation, and helps balance all three doshas while nourishing your skin and tissues."
+msgstr "संपूर्ण शरीराची उबदार तेल मालिश जी रक्ताभिसरण सुधारते, विश्रांतीला प्रोत्साहन देते आणि आपल्या त्वचेचा आणि ऊतींचा पोषण करत तिन्ही दोषांना संतुलित करण्यास मदत करते."
+
+msgid "Shirodhara Treatment"
+msgstr "शिरोधारा उपचार"
+
+msgid "Experience deep relaxation as warm herbal oil flows in a continuous stream over your forehead, calming the mind and rejuvenating the nervous system."
+msgstr "गरम औषधी तेल आपल्या कपाळावर सतत प्रवाहित होत असल्याने गहन विश्रांतीचा अनुभव घ्या, मन शांत होते आणि तंत्रिका प्रणालीचे पुनरुज्जीवन होते."
+
+msgid "Ayurvedic Massage"
+msgstr "आयुर्वेदिक मसाज"
+
+msgid "Book Your Healing Session"
+msgstr "आपला उपचार सत्र बुक करा"
+
 

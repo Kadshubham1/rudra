@@ -1,72 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
- {% load static %}
- {% load i18n %}
-    <head>
-        <meta charset="utf-8">
-        <title>Rudra - OurServices</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="keywords">
-        <meta content="" name="description">
+{% load static %}
+{% load i18n %}
 
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet"> 
+<head>
+    <meta charset="utf-8">
+    <title>Rudra - OurServices</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-        <!-- Icon Font Stylesheet -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap"
+        rel="stylesheet">
 
-        <!-- Libraries Stylesheet -->
-        <link href="{% static 'assets/lib/animate/animate.min.css' %}" rel="stylesheet">
-        <link href="{% static 'assets/lib/owlcarousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="{% static 'assets/lib/animate/animate.min.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/lib/owlcarousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
 
 
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="{% static 'assets/css/bootstrap.min.css' %}" rel="stylesheet">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="{% static 'assets/css/bootstrap.min.css' %}" rel="stylesheet">
 
-        <!-- Template Stylesheet -->
-        <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
-    </head>
+    <!-- Template Stylesheet -->
+    <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+</head>
 
-    <body>
+<body>
 
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
         </div>
-        <!-- Spinner End -->
+    </div>
+    <!-- Spinner End -->
 
 
-        <!-- Topbar Start -->
-        <div class="container-fluid bg-dark px-5 d-none d-lg-block">
-            <div class="row gx-0 align-items-center" style="height: 45px;">
-                <div class="col-lg-8 text-center text-lg-start mb-lg-0">
-                    <div class="d-flex flex-wrap">
-                        <a href="#" class="text-light me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i> Location</a>
-                        <a href="#" class="text-light me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+ 9172618534</a>
-                        <a href="#" class="text-light me-0"><i class="fas fa-envelope text-primary me-2"></i>rudrayurvedic1999@gmail.com</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 text-center text-lg-end">
-                    <div class="d-flex align-items-center justify-content-end">
-                        <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-0"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+        <div class="row gx-0 align-items-center" style="height: 45px;">
+            <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                <div class="d-flex flex-wrap">
+                    <a href="" class="text-light me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>
+                        Location</a>
+                    <a href="" class="text-light me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+
+                        9172618534</a>
+                    <a href="" class="text-light me-0"><i
+                            class="fas fa-envelope text-primary me-2"></i>rudrayurvedic1999@gmail.com</a>
                 </div>
             </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-flex align-items-center justify-content-end">
+                    <a href="https://www.instagram.com/rudra_ayurvedic_massage?igsh=MWU4OTlrOHkwY3kxaw==" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i
+                        class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/goraksh.dattatryblavre?mibextid=kFxxJD" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="https://youtube.com/@rudra1003?si=AuQG6_06Ol9Bsbbg" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i
+                            class="fab fa-youtube"></i></a>
+                    
+                    <a href="" class="btn btn-light btn-square border rounded-circle nav-fill me-0"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
         </div>
-        <!-- Topbar End -->
+    </div>
+    <!-- Topbar End -->
 
 
-        <!-- Navbar & Hero Start -->
-        <div class="container-fluid position-relative p-0">
-            <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
             <a href="{% url 'index' %}" class="navbar-brand p-0">
                 <img src="{% static 'assets/img/Rudra-Logo.png' %}" alt="{% trans 'Logo' %}">
             </a>
@@ -86,7 +98,7 @@
                         </div>
                     </div>
                     <a href="{% url 'contact' %}" class="nav-item nav-link">{% trans "Contact Us" %}</a>
-                    
+
                     <!-- Language Selector Dropdown -->
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
@@ -99,37 +111,38 @@
                         </div>
                     </div>
                 </div>
-                <a href="{% url 'appointment' %}" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">
+                <a href="{% url 'appointment' %}"
+                    class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">
                     {% trans "Book Appointment" %}
                 </a>
             </div>
         </nav>
-        </div>
-        <!-- Navbar End -->
+    </div>
+    <!-- Navbar End -->
 
-        <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb">
-            <div class="container text-center py-5" style="max-width: 900px;">
-                <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Our Services</h1>
+    <!-- Header Start -->
+    <div class="container-fluid bg-breadcrumb">
+        <div class="container text-center py-5" style="max-width: 900px;">
+            <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Our Services</h1>
                 <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
                     <li class="breadcrumb-item"><a href="/">Home</a></li>
                     <li class="breadcrumb-item"><a href="#">Pages</a></li>
                     <li class="breadcrumb-item active text-primary">Services</li>
-                </ol>    
-            </div>
+                </ol>
         </div>
-        <!-- Header End -->
+    </div>
+    <!-- Header End -->
 
 
-        <!-- Services Start -->
-     <div class="container-fluid service py-5">
+    <!-- Services Start -->
+    <div class="container-fluid service py-5">
         <div class="container py-5">
             <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.2s">
                 <div class="sub-style">
-                    <h4 class="sub-title px-3 mb-0">What We Do</h4>
+                    <h4 class="sub-title px-3 mb-0">{% trans "What We Do" %}</h4>
                 </div>
 
-                <p class="mb-0">Offer a variety of services like Swedish, Deep Tissue, Hot Stone, and Thai massages, designed to relax muscles, improve circulation, and relieve stress!</p>
+                <p class="mb-0">{% trans "Offer a variety of services like Swedish, Deep Tissue, Hot Stone, and Thai massages, designed to relax muscles, improve circulation, and relieve stress!" %}</p>
             </div>
             <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
@@ -139,8 +152,8 @@
                         </div>
                         <div class="service-content rounded-bottom bg-light p-4">
                             <div class="service-content-inner">
-                                <h5 class="mb-4">Back Pain</h5>
-                                <p class="mb-4">Back pain affects a wide range of individuals across different age groups and can be influenced by various risk factors, including age, lack of exercise, and obesity. Recognizing the symptoms and effective management and treatment.</p>
+                                <h5 class="mb-4">{% trans "Back Pain" %}</h5>
+                                <p class="mb-4">{% trans "Back pain affects a wide range of individuals across different age groups and can be influenced by various risk factors, including age, lack of exercise, and obesity. Recognizing the symptoms and effective management and treatment." %}</p>
                                 <!-- <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a> -->
                             </div>
                         </div>
@@ -153,8 +166,8 @@
                         </div>
                         <div class="service-content rounded-bottom bg-light p-4">
                             <div class="service-content-inner">
-                                <h5 class="mb-4">Neck Gap</h5>
-                                <p class="mb-4">For neck and shoulder pain, massage therapy can be a very successful treatment. Experienced massage therapists can help reduce your stress, enhance blood flow, and encourage relaxation in the muscles surrounding the neck.</p>
+                                <h5 class="mb-4">{% trans "Neck Gap" %}</h5>
+                                <p class="mb-4">{% trans "For neck and shoulder pain, massage therapy can be a very successful treatment. Experienced massage therapists can help reduce your stress, enhance blood flow, and encourage relaxation in the muscles surrounding the neck." %}</p>
                                 <!-- <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a> -->
                             </div>
                         </div>
@@ -167,8 +180,8 @@
                         </div>
                         <div class="service-content rounded-bottom bg-light p-4">
                             <div class="service-content-inner">
-                                <h5 class="mb-4">Spinal gap</h5>
-                                <p class="mb-4">In massage therapy, proper spinal alignment is essential to avoid creating unnecessary gaps that can lead to discomfort.spine remains properly supported during treatments is key for relaxation and avoiding strain.</p>
+                                <h5 class="mb-4">{% trans "Spinal gap" %}</h5>
+                                <p class="mb-4">{% trans "In massage therapy, proper spinal alignment is essential to avoid creating unnecessary gaps that can lead to discomfort.spine remains properly supported during treatments is key for relaxation and avoiding strain." %}</p>
                                 <!-- <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a> -->
                             </div>
                         </div>
@@ -181,8 +194,8 @@
                         </div>
                         <div class="service-content rounded-bottom bg-light p-4">
                             <div class="service-content-inner">
-                                <h5 class="mb-4">Tingling in hands</h5>
-                                <p class="mb-4">Tingling in the hands can often be addressed with the right massage techniques,It is often described as "pins and needles or numbness and can be caused as it is commonly related to muscle tension, nerve compression, or poor circulation. </p>
+                                <h5 class="mb-4">{% trans "Tingling in hands" %}</h5>
+                                <p class="mb-4">{% trans "Tingling in the hands can often be addressed with the right massage techniques,It is often described as pins and needles or numbness and can be caused as it is commonly related to muscle tension, nerve compression, or poor circulation." %} </p>
                                 <!-- <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a> -->
                             </div>
                         </div>
@@ -195,8 +208,8 @@
                         </div>
                         <div class="service-content rounded-bottom bg-light p-4">
                             <div class="service-content-inner">
-                                <h5 class="mb-4">Joint inflammation</h5>
-                                <p class="mb-4">Joint inflammation, also known as arthritis, occurs when the immune system or damaged tissues release chemicals that cause swelling and pain in the joints.</p>
+                                <h5 class="mb-4">{% trans "Joint inflammation" %}</h5>
+                                <p class="mb-4">{% trans "Joint inflammation, also known as arthritis, occurs when the immune system or damaged tissues release chemicals that cause swelling and pain in the joints." %}</p>
                                 <!-- <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a> -->
                             </div>
                         </div>
@@ -209,8 +222,8 @@
                         </div>
                         <div class="service-content rounded-bottom bg-light p-4">
                             <div class="service-content-inner">
-                                <h5 class="mb-4">Bones Gap</h5>
-                                <p class="mb-4">Bone gap-related massage focuses on relieving tension around joints where there may be reduced space between bones, such as in the spine, shoulders, or hips. <br> </p>
+                                <h5 class="mb-4">{% trans "Bones Gap" %}</h5>
+                                <p class="mb-4">{% trans "Bone gap-related massage focuses on relieving tension around joints where there may be reduced space between bones, such as in the spine, shoulders, or hips." %} <br> </p>
                                 <!-- <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a> -->
                             </div>
                         </div>
@@ -223,8 +236,8 @@
                         </div>
                         <div class="service-content rounded-bottom bg-light p-4">
                             <div class="service-content-inner">
-                                <h5 class="mb-4">Knee Pain</h5>
-                                <p class="mb-4">Knee pain is a common condition that can affect individuals of all ages, often resulting from injuries, overuse, or underlying medical conditions like arthritis.</p>
+                                <h5 class="mb-4">{% trans "Knee Pain" %}</h5>
+                                <p class="mb-4">{% trans "Knee pain is a common condition that can affect individuals of all ages, often resulting from injuries, overuse, or underlying medical conditions like arthritis." %}</p>
                                 <!-- <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a> -->
                             </div>
                         </div>
@@ -237,10 +250,8 @@
                         </div>
                         <div class="service-content rounded-bottom bg-light p-4">
                             <div class="service-content-inner">
-                                <h5 class="mb-4">kidney stone</h5>
-                                <p class="mb-4">Kidney stones are hard mineral and salt deposits that form in the kidneys,
-                                   
-                                      often causing severe and pain when they have move through the urinary tract causing significant pain .​ </p>
+                                <h5 class="mb-4">{% trans "kidney stone" %}</h5>
+                                <p class="mb-4">{% trans "Kidney stones are hard mineral and salt deposits that form in the kidneys,often causing severe pain when they move through the urinary tract causing significant pain ." %}​ </p>
                                 <!-- <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a> -->
                             </div>
                         </div>
@@ -253,14 +264,14 @@
     <!-- Services End -->
 
 
-        <!-- Feature Start -->
+    <!-- Feature Start -->
     <div class="container-fluid feature py-5">
         <div class="container py-5">
             <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="sub-style">
-                    <h4 class="sub-title px-3 mb-0">Why Choose Us</h4>
+                    <h4 class="sub-title px-3 mb-0">{% trans "Why Choose Us" %}</h4>
                 </div>
-                <p class="mb-0">Discover why our massage center is your best choice for relaxation and wellness.</p>
+                <p class="mb-0">{% trans "Discover why our massage center is your best choice for relaxation and wellness." %}</p>
             </div>
             <div class="row g-4 justify-content-center">
                 <!-- Licensed Therapist -->
@@ -273,9 +284,8 @@
                                 </div>
                             </div>
                             <div class="feature-content d-flex flex-column">
-                                <h5 class="mb-4">Licensed Therapist</h5>
-                                <p class="mb-0">Our team consists of certified professionals dedicated to your
-                                    well-being.</p>
+                                <h5 class="mb-4">{% trans "Licensed Therapist" %}</h5>
+                                <p class="mb-0">{% trans "Our team consists of certified professionals dedicated to your well-being." %}</p>
                             </div>
                         </div>
                     </div>
@@ -290,9 +300,8 @@
                                 </div>
                             </div>
                             <div class="feature-content d-flex flex-column">
-                                <h5 class="mb-4">Personalized Treatment</h5>
-                                <p class="mb-0">We provide customized treatments tailored to your specific needs and
-                                    preferences.</p>
+                                <h5 class="mb-4">{% trans "Personalized Treatment" %}</h5>
+                                <p class="mb-0">{% trans "We provide customized treatments tailored to your specific needs and preferences." %}</p>
                             </div>
                         </div>
                     </div>
@@ -307,9 +316,8 @@
                                 </div>
                             </div>
                             <div class="feature-content d-flex flex-column">
-                                <h5 class="mb-4">Therapy Goals</h5>
-                                <p class="mb-0">Our sessions focus on achieving your wellness goals, whether it’s stress
-                                    relief or pain management.</p>
+                                <h5 class="mb-4">{% trans "Therapy Goals" %}</h5>
+                                <p class="mb-0">{% trans "Our sessions focus on achieving your wellness goals, whether it’s stress relief or pain management." %}</p>
                             </div>
                         </div>
                     </div>
@@ -324,9 +332,8 @@
                                 </div>
                             </div>
                             <div class="feature-content d-flex flex-column">
-                                <h5 class="mb-4">Practitioners Network</h5>
-                                <p class="mb-0">We work with a network of experienced therapists to offer a wide range
-                                    of massage styles.</p>
+                                <h5 class="mb-4">{% trans "Practitioners Network" %}</h5>
+                                <p class="mb-0">{% trans "We work with a network of experienced therapists to offer a wide range of massage styles." %}</p>
                             </div>
                         </div>
                     </div>
@@ -341,9 +348,8 @@
                                 </div>
                             </div>
                             <div class="feature-content d-flex flex-column">
-                                <h5 class="mb-4">Comfortable Center</h5>
-                                <p class="mb-0">Our spa-like atmosphere is designed to enhance relaxation and comfort
-                                    during your visit.</p>
+                                <h5 class="mb-4">{% trans "Comfortable Center" %}</h5>
+                                <p class="mb-0">{% trans "Our spa-like atmosphere is designed to enhance relaxation and comfort during your visit." %}</p>
                             </div>
                         </div>
                     </div>
@@ -358,9 +364,8 @@
                                 </div>
                             </div>
                             <div class="feature-content d-flex flex-column">
-                                <h5 class="mb-4">Experienced Staff</h5>
-                                <p class="mb-0">Our friendly, experienced staff ensures you get the best care during
-                                    each session.</p>
+                                <h5 class="mb-4">{% trans "Experienced Staff" %}</h5>
+                                <p class="mb-0">{% trans "Our friendly, experienced staff ensures you get the best care during each session." %}</p>
                             </div>
                         </div>
                     </div>
@@ -375,14 +380,13 @@
                                 </div>
                             </div>
                             <div class="feature-content d-flex flex-column">
-                                <h5 class="mb-4">Holistic Approach</h5>
-                                <p class="mb-0">We combine various techniques for a holistic approach to healing and
-                                    wellness.</p>
+                                <h5 class="mb-4">{% trans "Holistic Approach" %}</h5>
+                                <p class="mb-0">{% trans "We combine various techniques for a holistic approach to healing and wellness." %}</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Licensed Therapist -->
+                <!-- Professional Therapists -->
                 <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="row-cols-1 feature-item p-4">
                         <div class="col-12">
@@ -392,9 +396,8 @@
                                 </div>
                             </div>
                             <div class="feature-content d-flex flex-column">
-                                <h5 class="mb-4">Professional Therapists</h5>
-                                <p class="mb-0">We have licensed therapists who are trained to provide specialized
-                                    massage therapy.</p>
+                                <h5 class="mb-4">{% trans "Professional Therapists" %}</h5>
+                                <p class="mb-0">{% trans "We have licensed therapists who are trained to provide specialized massage therapy." %}</p>
                             </div>
                         </div>
                     </div>
@@ -402,183 +405,201 @@
             </div>
         </div>
     </div>
+    
     <!-- Feature End -->
 
 
-        <!-- Testimonial Start -->
-        <div class="container-fluid testimonial py-5 wow zoomInDown" data-wow-delay="0.1s">
-            <div class="container py-5">
-                <div class="section-title mb-5">
-                    <div class="sub-style">
-                        <h4 class="sub-title text-white px-3 mb-0">What Clients are Say</h4>
-                    </div>
-                    <h6 class="display-3 mb-4"></h6>
+    <!-- Testimonial Start -->
+    <div class="container-fluid testimonial py-5 wow zoomInDown" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title mb-5">
+                <div class="sub-style">
+                    <h4 class="sub-title text-white px-3 mb-0">What Clients are Say</h4>
                 </div>
-                <div class="testimonial-carousel owl-carousel">
-                    <div class="testimonial-item">
-                        <div class="testimonial-inner p-5">
-                            <div class="testimonial-inner-img mb-4">
-                                <img src="{% static 'assets/img/testimonial-img.jpg' %}" class="img-fluid rounded-circle" alt="">
-                            </div>
-                            <p class="text-white fs-7">"The massage therapy at Rudra Centre has been transformative for my chronic back pain. The therapists are highly skilled and professional. I've seen significant improvement in my mobility and overall well-being."
-                            </p>
-                            <div class="text-center">
-                                <h5 class="mb-2">Rahul Sharma</h5>
-                                <p class="mb-2 text-white-50">Ahmednagar, Maharashtra</p>
-                                <div class="d-flex justify-content-center">
-                                    <i class="fas fa-star text-secondary"></i>
-                                    <i class="fas fa-star text-secondary"></i>
-                                    <i class="fas fa-star text-secondary"></i>
-                                    <i class="fas fa-star text-secondary"></i>
-                                    <i class="fas fa-star text-secondary"></i>
-                                </div>
-                            </div>
+                <h6 class="display-3 mb-4"></h6>
+            </div>
+            <div class="testimonial-carousel owl-carousel">
+                <div class="testimonial-item">
+                    <div class="testimonial-inner p-5">
+                        <div class="testimonial-inner-img mb-4">
+                            <img src="{% static 'assets/img/testimonial-img.jpg' %}" class="img-fluid rounded-circle"
+                                alt="">
                         </div>
-                    </div>
-                    <div class="testimonial-item">
-                        <div class="testimonial-inner p-5">
-                            <div class="testimonial-inner-img mb-4">
-                                <img src="{% static 'assets/img/testimonial-img.jpg' %}" class="img-fluid rounded-circle" alt="">
-                            </div>
-                            <p class="text-white fs-7">"Outstanding service and genuine care for patients. The traditional techniques combined with modern practices make Rudra Centre unique. My neck pain has significantly improved after regular sessions."
-                            </p>
-                            <div class="text-center">
-                                <h5 class="mb-2">Priya Patel</h5>
-                                <p class="mb-2 text-white-50">Pune, Maharashtra</p>
-                                <div class="d-flex justify-content-center">
-                                    <i class="fas fa-star text-secondary"></i>
-                                    <i class="fas fa-star text-secondary"></i>
-                                    <i class="fas fa-star text-secondary"></i>
-                                    <i class="fas fa-star text-secondary"></i>
-                                    <i class="fas fa-star text-secondary"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-item">
-                        <div class="testimonial-inner p-5">
-                            <div class="testimonial-inner-img mb-4">
-                                <img src="{% static 'assets/img/testimonial-img.jpg' %}" class="img-fluid rounded-circle" alt="">
-                            </div>
-                            <p class="text-white fs-7">"I've been visiting Rudra Centre for the past 6 months for spinal treatment. The improvement in my condition has been remarkable. The staff is courteous and the environment is very peaceful."
-                            </p>
-                            <div class="text-center">
-                                <h5 class="mb-2">Ajay Deshmukh</h5>
-                                <p class="mb-2 text-white-50">Nashik, Maharashtra</p>
-                                <div class="d-flex justify-content-center">
-                                    <i class="fas fa-star text-secondary"></i>
-                                    <i class="fas fa-star text-secondary"></i>
-                                    <i class="fas fa-star text-secondary"></i>
-                                    <i class="fas fa-star text-secondary"></i>
-                                    <i class="fas fa-star text-secondary"></i>
-                                </div>
+                        <p class="text-white fs-7">"The massage therapy at Rudra Centre has been transformative for my
+                            chronic back pain. The therapists are highly skilled and professional. I've seen significant
+                            improvement in my mobility and overall well-being."
+                        </p>
+                        <div class="text-center">
+                            <h5 class="mb-2">Rahul Sharma</h5>
+                            <p class="mb-2 text-white-50">Ahmednagar, Maharashtra</p>
+                            <div class="d-flex justify-content-center">
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- Testimonial End -->
-
-
-        <!-- Footer Start -->
-        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column align-items-center align-items-xl-start">
-                            <div class="logo-container mb-3 text-center w-100">
-                                <img src="{% static 'assets/img/Rudra-Logo.png' %}" alt="Logo" class="footer-logo">
-                            </div>
-                            <p class="text-center text-xl-start">At Rudra Massage Centre, we believe that true well-being comes from nurturing the mind, body, and spirit. Let us help you on your wellness journey.</p>
-                            <div class="social-icons d-flex justify-content-center justify-content-xl-start w-100">
-                                <i class="fas fa-share fa-2x text-white me-2"></i>
-                                <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-inner p-5">
+                        <div class="testimonial-inner-img mb-4">
+                            <img src="{% static 'assets/img/testimonial-img.jpg' %}" class="img-fluid rounded-circle"
+                                alt="">
                         </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="mb-4 text-white">Quick Links</h4>
-                            <a href="/about/"><i class="fas fa-angle-right me-2"></i> About Us</a>
-                            <a href="/contact/"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
-                            
-                            <a href="/blog/"><i class="fas fa-angle-right me-2"></i> Our Blog & News</a>
-                            <a href="/team/"><i class="fas fa-angle-right me-2"></i> Our Team</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="mb-4 text-white text-center text-xl-start">Rudra Services</h4>
-                            <div class="d-flex flex-column align-items-center align-items-xl-start">
-                                <a href=""><i class="fas fa-angle-right me-2"></i> Back Pain</a>
-                                <a href=""><i class="fas fa-angle-right me-2"></i> Neck Gap</a>
-                                <a href=""><i class="fas fa-angle-right me-2"></i> Spinal Gap</a>
-                                <a href=""><i class="fas fa-angle-right me-2"></i> Bones Gap</a>
-                                <a href=""><i class="fas fa-angle-right me-2"></i> Knee Pain</a>
-                                <a href=""><i class="fas fa-angle-right me-2"></i> Kidney Stone</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="mb-4 text-white text-center text-xl-start">Contact Info</h4>
-                            <div class="d-flex flex-column align-items-center align-items-xl-start">
-                                <a href="" class="text-center text-xl-start"><i class="fa fa-map-marker-alt me-2"></i> HP Petrol Pump, Near Kanha Beakers, Nagar-Kalyan Road, Bhalawani, Tal - Parner, Dist - Ahemednagar</a>
-                                <a href=""><i class="fas fa-envelope me-2"></i>rudrayurvedic1999@gmail.com</a>
-                                <a href=""><i class="fas fa-phone me-2"></i> + 9172618534</a>
-                                <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +9284740199</a>
+                        <p class="text-white fs-7">"Outstanding service and genuine care for patients. The traditional
+                            techniques combined with modern practices make Rudra Centre unique. My neck pain has
+                            significantly improved after regular sessions."
+                        </p>
+                        <div class="text-center">
+                            <h5 class="mb-2">Priya Patel</h5>
+                            <p class="mb-2 text-white-50">Pune, Maharashtra</p>
+                            <div class="d-flex justify-content-center">
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        
-        <!-- Footer End -->
-        
-        <!-- Copyright Start -->
-        <div class="container-fluid copyright py-4">
-    <div class="container">
-        <div class="row g-4 align-items-center">
-            <div class="col-md-6 text-center text-md-start mb-md-0">
-                <span class="text-white">
-                    <a href="#">
-                        <i class="fas fa-copyright text-light me-2"></i>{% trans "Rudra Aayurvedic" %}
-                    </a>, {% trans "All rights reserved." %}
-                </span>
-            </div>
-            <div class="col-md-6 text-center text-md-end text-white">
-                <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                {% trans "Designed By" %} <a class="border-bottom" href="#">{% trans "AS Software Solutions" %}</a>
+                <div class="testimonial-item">
+                    <div class="testimonial-inner p-5">
+                        <div class="testimonial-inner-img mb-4">
+                            <img src="{% static 'assets/img/testimonial-img.jpg' %}" class="img-fluid rounded-circle"
+                                alt="">
+                        </div>
+                        <p class="text-white fs-7">"I've been visiting Rudra Centre for the past 6 months for spinal
+                            treatment. The improvement in my condition has been remarkable. The staff is courteous and
+                            the environment is very peaceful."
+                        </p>
+                        <div class="text-center">
+                            <h5 class="mb-2">Ajay Deshmukh</h5>
+                            <p class="mb-2 text-white-50">Nashik, Maharashtra</p>
+                            <div class="d-flex justify-content-center">
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
+    <!-- Testimonial End -->
 
-        <!-- Copyright End -->
 
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column align-items-center align-items-xl-start">
+                        <div class="logo-container mb-3 text-center w-100">
+                            <img src="{% static 'assets/img/Rudra-Logo.png' %}" alt="Logo" class="footer-logo">
+                        </div>
+                        <p class="text-center text-xl-start">At Rudra Massage Centre, we believe that true well-being
+                            comes from nurturing the mind, body, and spirit. Let us help you on your wellness journey.
+                        </p>
+                        <div class="social-icons d-flex justify-content-center justify-content-xl-start w-100">
+                            <i class="fas fa-share fa-2x text-white me-2"></i>
+                            <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href="https://www.facebook.com/goraksh.dattatryblavre?mibextid=kFxxJD"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href="https://youtube.com/@rudra1003?si=AuQG6_06Ol9Bsbbg"><i
+                                    class="fab fa-youtube"></i></a>
+                            <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href="https://www.instagram.com/rudra_ayurvedic_massage?igsh=MWU4OTlrOHkwY3kxaw=="><i
+                                    class="fab fa-instagram"></i></a>
+                            <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="mb-4 text-white">Quick Links</h4>
+                        <a href="/about/"><i class="fas fa-angle-right me-2"></i> About Us</a>
+                        <a href="/contact/"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
 
-        
-        <!-- JavaScript Libraries -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="{% static 'assets/lib/wow/wow.min.js' %}"></script>
-        <script src="{% static 'assets/lib/easing/easing.min.js'%}"></script>
-        <script src="{% static 'assets/lib/waypoints/waypoints.min.js'%}"></script>
-        <script src="{% static 'assets/lib/owlcarousel/owl.carousel.min.js' %}"></script>
-        
+                        <a href="/blog/"><i class="fas fa-angle-right me-2"></i> Our Blog & News</a>
+                        <a href="/team/"><i class="fas fa-angle-right me-2"></i> Our Team</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="mb-4 text-white text-center text-xl-start">Rudra Services</h4>
+                        <div class="d-flex flex-column align-items-center align-items-xl-start">
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Back Pain</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Neck Gap</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Spinal Gap</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Bones Gap</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Knee Pain</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Kidney Stone</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="mb-4 text-white text-center text-xl-start">Contact Info</h4>
+                        <div class="d-flex flex-column align-items-center align-items-xl-start">
+                            <a href="" class="text-center text-xl-start"><i class="fa fa-map-marker-alt me-2"></i> HP
+                                Petrol Pump, Near Kanha Beakers, Nagar-Kalyan Road, Bhalawani, Tal - Parner, Dist -
+                                Ahemednagar</a>
+                            <a href=""><i class="fas fa-envelope me-2"></i>rudrayurvedic1999@gmail.com</a>
+                            <a href=""><i class="fas fa-phone me-2"></i> + 9172618534</a>
+                            <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +9284740199</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <!-- Template Javascript -->
-        <script src="{% static 'assets/js/main.js' %}"></script>
-        
-    </body>
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-md-0">
+                    <span class="text-white">
+                        <a href="#">
+                            <i class="fas fa-copyright text-light me-2"></i>{% trans "Rudra Aayurvedic" %}
+                        </a>, {% trans "All rights reserved." %}
+                    </span>
+                </div>
+                <div class="col-md-6 text-center text-md-end text-white">
+                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                    {% trans "Designed By" %} <a class="border-bottom" href="#">{% trans "AS Software Solutions" %}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyright End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{% static 'assets/lib/wow/wow.min.js' %}"></script>
+    <script src="{% static 'assets/lib/easing/easing.min.js'%}"></script>
+    <script src="{% static 'assets/lib/waypoints/waypoints.min.js'%}"></script>
+    <script src="{% static 'assets/lib/owlcarousel/owl.carousel.min.js' %}"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="{% static 'assets/js/main.js' %}"></script>
+
+</body>
 
 </html>
