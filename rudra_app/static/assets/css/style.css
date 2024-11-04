@@ -377,7 +377,7 @@
 @media (max-width: 576px) {
     .header-carousel .owl-nav .owl-prev,
     .header-carousel .owl-nav .owl-next {
-        top: 630px;
+        
         transition: 0.5s;
     }
 
