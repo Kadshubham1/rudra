@@ -456,7 +456,7 @@
                         <div class="product-info">
                             <h2 class="product-name">{% trans "Ortho Care" %}</h2>
                             <p class="product-description">{% trans "Quick-action roll on for joint pain. Provides instant relief and lasting comfort." %}</p>
-                            <p class="product-price">{% trans "12.99 Rs" %}</p>
+                            <p class="product-price">{% trans "235.00 Rs" %}</p>
                             <a href="{% url 'contact' %}" class="add-to-cart btn btn-primary">{% trans "Buy Now" %}</a>
                         </div>
                     </div>
@@ -466,7 +466,7 @@
                         <div class="product-info">
                             <h2 class="product-name">{% trans "Artho Care Pain Oil" %}</h2>
                             <p class="product-description">{% trans "Natural Oil for joint relief. Eases stiffness, boosts mobility." %}</p>
-                            <p class="product-price">{% trans "255.00 Rs" %}</p>
+                            <p class="product-price">{% trans "449.00 Rs" %}</p>
                             <a href="{% url 'contact' %}" class="add-to-cart btn btn-primary">{% trans "Buy Now" %}</a>
                         </div>
                     </div>
@@ -486,7 +486,7 @@
                         <div class="product-info">
                             <h2 class="product-name">{% trans "Artho Plus +" %}</h2>
                             <p class="product-description">{% trans "Holistic Formula for joint health. Soothes pain, improves physical performance." %}</p>
-                            <p class="product-price">{% trans "9.99 Rs" %}</p>
+                            <p class="product-price">{% trans "400.00 Rs" %}</p>
                             <a href="{% url 'contact' %}" class="add-to-cart btn btn-primary">{% trans "Buy Now" %}</a>
                         </div>
                     </div>
@@ -498,33 +498,14 @@
             <div class="container">
                 
                 <div class="product-grid">
-                    <div class="product-card">
-                        <div class="wellness-badge">{% trans "Powder" %}</div>
-                        <img src="{% static 'assets/img/arthocare-powder rb.png' %}" alt="{% trans 'Calming Herbal Tea' %}" class="product-image">
-                        <div class="product-info">
-                            <h2 class="product-name">{% trans "Artho Care Powder" %}</h2>
-                            <p class="product-description">{% trans "Soothing blend for relaxation." %}</p>
-                            <p class="product-price">{% trans "449.00 Rs" %}</p>
-                            <a href="{% url 'contact' %}" class="add-to-cart btn btn-primary">{% trans "Buy Now" %}</a>
-                        </div>
-                    </div>
+                    
                     <div class="product-card">
                         <div class="wellness-badge">{% trans "Pain Oil" %}</div>
                         <img src="{% static 'assets/img/ortho-rb.png' %}" alt="{% trans 'Cooling Massage Oil' %}" class="product-image">
                         <div class="product-info">
                             <h2 class="product-name">{% trans "Artho Care Pain Oil" %}</h2>
                             <p class="product-description">{% trans "Natural Oil for joint relief. Eases stiffness, boosts mobility." %}</p>
-                            <p class="product-price">{% trans "255.00 Rs" %}</p>
-                            <a href="{% url 'contact' %}" class="add-to-cart btn btn-primary">{% trans "Buy Now" %}</a>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="wellness-badge">{% trans "Churn" %}</div>
-                        <img src="{% static 'assets/img/memohence rb.png' %}" alt="{% trans 'Energizing Herb Mix' %}" class="product-image">
-                        <div class="product-info">
-                            <h2 class="product-name">{% trans "Memohence" %}</h2>
-                            <p class="product-description">{% trans "Ayurvedic blend for digestive health. Balances acidity, improves digestion." %}</p>
-                            <p class="product-price">{% trans "500.00 Rs" %}</p>
+                            <p class="product-price">{% trans "449.00 Rs" %}</p>
                             <a href="{% url 'contact' %}" class="add-to-cart btn btn-primary">{% trans "Buy Now" %}</a>
                         </div>
                     </div>
@@ -538,6 +519,27 @@
                             <a href="{% url 'contact' %}" class="add-to-cart btn btn-primary">{% trans "Buy Now" %}</a>
                         </div>
                     </div>
+                    <div class="product-card">
+                        <div class="wellness-badge">{% trans "Powder" %}</div>
+                        <img src="{% static 'assets/img/arthocare-powder rb.png' %}" alt="{% trans 'Calming Herbal Tea' %}" class="product-image">
+                        <div class="product-info">
+                            <h2 class="product-name">{% trans "Artho Care Powder" %}</h2>
+                            <p class="product-description">{% trans "Soothing blend for relaxation." %}</p>
+                            <p class="product-price">{% trans "449.00 Rs" %}</p>
+                            <a href="{% url 'contact' %}" class="add-to-cart btn btn-primary">{% trans "Buy Now" %}</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="wellness-badge">{% trans "Churn" %}</div>
+                        <img src="{% static 'assets/img/memohence rb.png' %}" alt="{% trans 'Energizing Herb Mix' %}" class="product-image">
+                        <div class="product-info">
+                            <h2 class="product-name">{% trans "Memohence" %}</h2>
+                            <p class="product-description">{% trans "Ayurvedic blend for digestive health. Balances acidity, improves digestion." %}</p>
+                            <p class="product-price">{% trans "500.00 Rs" %}</p>
+                            <a href="{% url 'contact' %}" class="add-to-cart btn btn-primary">{% trans "Buy Now" %}</a>
+                        </div>
+                    </div>
+                    
                 </div>
                 
             </div>
@@ -599,14 +601,15 @@
                                 <div class="col-sm-6">
                                     <div class="video h-100">
                                         <img src="{% static 'assets/img/video-img.jpg' %}" class="img-fluid rounded w-100 h-100"
-                                            style="object-fit: cover;" alt="">
+                                             style="object-fit: cover;" alt="">
                                         <button type="button" class="btn btn-play" data-bs-toggle="modal"
-                                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
-                                            data-bs-target="#videoModal">
+                                                data-src="https://youtube.com/@rudra1003?si=AuQG6_06Ol9Bsbbg"
+                                                data-bs-target="#videoModal">
                                             <span></span>
                                         </button>
                                     </div>
                                 </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -986,17 +989,17 @@
                 <div class="footer-item d-flex flex-column">
                     <h4 class="mb-4 text-white text-center text-xl-start">{% trans "Contact Info" %}</h4>
                     <div class="d-flex flex-column align-items-center align-items-xl-start">
-                        <a href="" class="text-center text-xl-start"><i class="fa fa-map-marker-alt me-2"></i> {% trans "HP Petrol Pump, Near Kanha Beakers, Nagar-Kalyan Road, Bhalawani, Tal - Parner, Dist - Ahemednagar" %}</a>
-                        <a href=""><i class="fas fa-envelope me-2"></i> {% trans "rudrayurvedic1999@gmail.com" %}</a>
-                        <a href=""><i class="fas fa-phone me-2"></i> {% trans "+ 9172618534" %}</a>
-                        <a href="" class="mb-3"><i class="fas fa-print me-2"></i> {% trans "+9284740199" %}</a>
+                        <a href="https://maps.app.goo.gl/dDVvfpLf6nLAgoEs6" class="text-center text-xl-start"><i class="fa fa-map-marker-alt me-2"></i> {% trans "HP Petrol Pump, Near Kanha Beakers, Nagar-Kalyan Road, Bhalawani, Tal - Parner, Dist - Ahemednagar" %}</a>
+                        <a href="mailto:rudrayurvedic1999@gmail.com"><i class="fas fa-envelope me-2"></i> {% trans "rudrayurvedic1999@gmail.com" %}</a>
+                        <a href="tel:+9172618534"><i class="fas fa-phone me-2"></i> {% trans "+ 9172618534" %}</a>
+                        <a href="+9284740199" class="mb-3"><i class="fas fa-print me-2"></i> {% trans "+9284740199" %}</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
+    
         
         <!-- Footer End -->
         
