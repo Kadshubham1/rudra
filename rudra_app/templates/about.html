@@ -171,66 +171,36 @@
 
 
     <!-- Team Start -->
-    <div class="container-fluid team py-5">
-        <div class="container py-5">
-            <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="sub-style">
-                    <h4 class="sub-title px-3 mb-0">Meet our team</h4>
-                </div>
-
-                
+<div class="container-fluid team py-5">
+    <div class="container py-5">
+        <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="sub-style">
+                <h4 class="sub-title px-3 mb-0 text-primary">Meet Our Team</h4>
             </div>
-            <div class="row g-4 justify-content-center">
-                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item rounded">
-                        <div class="team-img rounded-top h-100">
-                            <img src="{% static 'assets/img/team-1.jpg' %}" class="img-fluid rounded-top w-100" alt="">
-                            
-                        </div>
-                        <div class="team-content text-center border border-primary border-top-0 rounded-bottom p-4">
-                            <h5>Goraksha Lavre</h5>
-                            <p class="mb-0">Message Physio Therapist</p>
-                            
-                        </div>
+        </div>
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-8 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item rounded shadow-lg overflow-hidden">
+                    <div class="team-img position-relative">
+                        <img src="{% static 'assets/img/goraksha.jpeg' %}" class="img-fluid rounded-circle mx-auto d-block mt-4" style="width: 180px; height: 180px; border: 5px solid #007bff;" alt="Goraksha Lavre">
+                    </div>
+                    <div class="team-content text-center border border-primary border-top-0 rounded-bottom p-4 bg-light">
+                        <h5 class="mb-1">Goraksha Lavre</h5>
+                        <p class="text-primary mb-3">Certified Alternate Healing Therapist</p>
+                        <p class="mb-0 text-muted">Certified in Alternate Healing Therapy with distinction, Goraksh brings over a year of professional training in therapeutic healing. His expertise, certified by the Maharashtra State Board of Skill, Vocational Education, and Training, reflects his dedication to holistic care and well-being.</p>
+                        <!-- Button to view certificate -->
+                        <a href="{% static 'assets/certificates/certificate.pdf' %}" target="_blank" class="btn btn-primary mt-3">
+                            View Certificate
+                        </a>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item rounded">
-                        <div class="team-img rounded-top h-100">
-                            <img src="{% static 'assets/img/team-2.jpg' %}" class="img-fluid rounded-top w-100" alt="">
-                            
-                        </div>
-                        <div class="team-content text-center border border-primary border-top-0 rounded-bottom p-4">
-                            <h5>Goraksha Wife</h5>
-                            <p class="mb-0">Rehabilitation Therapist</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item rounded">
-                        <div class="team-img rounded-top h-100">
-                            <img src="{% static 'assets/img/team-2.jpg' %}" class="img-fluid rounded-top w-100" alt="">
-                            
-                        </div>
-                        <div class="team-content text-center border border-primary border-top-0 rounded-bottom p-4">
-                            <h5>Goraksha Father</h5>
-                            <p class="mb-0">Rehabilitation Therapist</p>
-                        </div>
-                    </div>
-                </div>
-
-                <a href="https://youtube.com/@rudra1003?si=AuQG6_06Ol9Bsbbg" target="_blank" 
-                    style="width: 300px; display: inline-block; padding: 10px 20px; background-color: #007bff; color: white; 
-                    font-weight: bold; text-decoration: none; border-radius: 5px; text-align: center; 
-                    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); transition: background-color 0.3s;">
-                    <span>View Certificate - Click Here</span>
-                </a>
-                
-                
             </div>
         </div>
     </div>
-    <!-- Team End -->
+</div>
+<!-- Team End -->
+
+
 
 
     <!-- Feature Start -->
@@ -449,11 +419,9 @@
                             Aayurvedic</a>, All right reserved.</span>
                 </div>
                 <div class="col-md-6 text-center text-md-end text-white">
-                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                    Designed By <a class="border-bottom" href="#">AS Software Solutions</a>
-                </div>
+               
+                {% trans "Designed By" %} <a class="border-bottom" href="https://as-software-company.com/">{% trans "AS Software Solutions" %}</a>
+            </div>
             </div>
         </div>
     </div>
