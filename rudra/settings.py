@@ -32,7 +32,8 @@ DEBUG = True
 ALLOWED_HOSTS = ["*"]
 
 CSRF_TRUSTED_ORIGINS =[
-    'https://rudra-lgrq.onrender.com'
+    'https://rudra-lgrq.onrender.com',
+    'https://rudrayurvedic.com'
 ]
 
 
