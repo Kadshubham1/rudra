@@ -397,3 +397,6 @@ msgstr "आपला उपचार सत्र बुक करा"
 
 msgid "At Rudra Massage Centre, we believe that true well-being comes from nurturing the mind, body, and spirit. Let us help you on your wellness journey."
 msgstr "रुद्र मसाज सेंटर येथे, आमचा विश्वास आहे की खरी सुदृढता ही मन, शरीर आणि आत्म्याच्या पोषणातून येते. आपल्या सुदृढतेच्या प्रवासात आम्ही आपली मदत करू."
+
+msgid "Naturopathy"
+msgstr "निसर्गोपचार"

@@ -387,4 +387,6 @@ msgstr "अपने उपचार सत्र को बुक करें"
 msgid "Experience the transformative power of traditional Ayurvedic massage therapy, where ancient wisdom meets modern wellness. Our therapeutic treatments balance your doshas (Vata, Pitta, and Kapha) while promoting deep relaxation and healing."
 msgstr "पारंपरिक आयुर्वेदिक मालिश चिकित्सा की परिवर्तनकारी शक्ति का अनुभव करें, जहाँ प्राचीन ज्ञान आधुनिक स्वास्थ्य से मिलता है। हमारे उपचारात्मक सत्र आपके दोषों (वात, पित्त, और कफ) को संतुलित करते हैं और गहरी विश्रांति और उपचार को बढ़ावा देते हैं।"
 
+msgid "Naturopathy"
+msgstr "प्राकृतिक चिकित्सा"
 
