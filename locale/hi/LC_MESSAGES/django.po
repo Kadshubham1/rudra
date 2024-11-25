@@ -390,3 +390,43 @@ msgstr "पारंपरिक आयुर्वेदिक मालिश 
 msgid "Naturopathy"
 msgstr "प्राकृतिक चिकित्सा"
 
+
+msgid "Neck pain"
+msgstr "गर्दन का दर्द"
+
+msgid "Back pain"
+msgstr "पीठ दर्द"
+
+msgid "Shoulder pain"
+msgstr "कंधे का दर्द"
+
+msgid "Sciatica Gap"
+msgstr "साइटिका गैप"
+
+msgid "Nerve compression"
+msgstr "नस का दबाव"
+
+msgid "Knee pain"
+msgstr "घुटने का दर्द"
+
+msgid "Murgalne"
+msgstr "मुरगलेन (जैसा का तैसा)"
+
+msgid "Hip joint pain"
+msgstr "कूल्हे के जोड़ का दर्द"
+
+msgid "Bone gap"
+msgstr "हड्डी का गैप"
+
+msgid "EVN"
+msgstr "ईवीएन (जैसा का तैसा)"
+
+msgid "Muscle pain and massage"
+msgstr "मांसपेशियों का दर्द और मालिश"
+
+msgid "Hijama therapy"
+msgstr "हिजामा चिकित्सा"
+
+msgid "Cupping therapy"
+msgstr "कपिंग चिकित्सा"
+

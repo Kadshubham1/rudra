@@ -400,3 +400,43 @@ msgstr "रुद्र मसाज सेंटर येथे, आमचा 
 
 msgid "Naturopathy"
 msgstr "निसर्गोपचार"
+
+msgid "Neck pain"
+msgstr "मानदुखी"
+
+msgid "Back pain"
+msgstr "पाठीचा दुखापत"
+
+msgid "Shoulder pain"
+msgstr "खांद्याचा दुखापत"
+
+msgid "Sciatica Gap"
+msgstr "सायटिका गॅप"
+
+msgid "Nerve compression"
+msgstr "स्नायू दाब"
+
+msgid "Knee pain"
+msgstr "गुडघेदुखी"
+
+msgid "Murgalne"
+msgstr "मुरगळणे (जैसे का तैसे)"
+
+msgid "Hip joint pain"
+msgstr "खांद्याच्या सांध्याचा दुखापत"
+
+msgid "Bone gap"
+msgstr "हाडांचा गॅप"
+
+msgid "EVN"
+msgstr "ईव्हीएन (जैसे का तैसे)"
+
+msgid "Muscle pain and massage"
+msgstr "स्नायू दुखणे आणि मालिश"
+
+msgid "Hijama therapy"
+msgstr "हिजामा उपचार"
+
+msgid "Cupping therapy"
+msgstr "कपिंग उपचार"
+
