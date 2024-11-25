@@ -571,45 +571,40 @@
         <!-- end/// -->
 
 
-        <!-- Book Appointment Start -->
+       <!-- Book Appointment Start -->
         <div class="container-fluid appointment py-5">
             <div class="container py-5">
                 <div class="row g-5 align-items-center">
-                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2">
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
                         <div class="section-title text-start">
                             <h4 class="sub-title pe-3 mb-0">{% trans "Ancient Healing Through Ayurvedic Massage" %}</h4>
-                            
-                            <p class="mb-4">{% trans "Experience the transformative power of traditional Ayurvedic massag etherapy, where ancient wisdom meets modern wellness. " %}</p>
+                            <p class="mb-4">{% trans "Experience the transformative power of traditional Ayurvedic massage therapy, where ancient wisdom meets modern wellness." %}</p>
                             <div class="row g-4">
                                 <div class="col-sm-6">
                                     <div class="d-flex flex-column h-100">
                                         <div class="mb-4">
                                             <h5 class="mb-3"><i class="fa fa-check text-primary me-2"></i>{% trans "Abhyanga Massage" %}</h5>
-                                            
                                             <p class="mb-0">{% trans "Full body warm oil massage that improves circulation, promotes relaxation, and helps balance all three doshas while nourishing your skin and tissues." %}</p>
                                         </div>
                                         <div class="mb-4">
-                                            <h5 class="mb-3"><i class="fa fa-check text-primary me-2"></i> {% trans "Shirodhara Treatment" %}</h5>
+                                            <h5 class="mb-3"><i class="fa fa-check text-primary me-2"></i>{% trans "Shirodhara Treatment" %}</h5>
                                             <p class="mb-0">{% trans "Experience deep relaxation as warm herbal oil flows in a continuous stream over your forehead, calming the mind and rejuvenating the nervous system." %}</p>
                                         </div>
                                         <div class="text-start mb-4">
-                                            <a href="#" class="btn btn-primary rounded-pill text-white py-3 px-5">More
-                                                Details</a>
+                                            <a href="#" class="btn btn-primary rounded-pill text-white py-3 px-5">{% trans "More Details" %}</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="video h-100">
-                                        <img src="{% static 'assets/img/video-img.jpg' %}" class="img-fluid rounded w-100 h-100"
-                                             style="object-fit: cover;" alt="">
-                                        <button type="button" class="btn btn-play" data-bs-toggle="modal"
-                                                data-src="https://www.youtube.com/live/6rhpS4s7zz0?si=X2EBhaJmHYBbj-Pr"
-                                                data-bs-target="#videoModal">
-                                            <span></span>
-                                        </button>
+                                        <video width="340" height="360" controls>
+                                            <source src="{% static 'assets/vidio/rudra vidio.mp4' %}" type="video/mp4">
+                                            <source src="path/to/video.webm" type="video/webm">
+                                            <source src="path/to/video.ogg" type="video/ogg">
+                                            {% trans "Your browser does not support the video tag." %}
+                                        </video>
                                     </div>
                                 </div>
-                                
                             </div>
                         </div>
                     </div>
@@ -642,9 +637,9 @@
                                     </div>
                                     <div class="col-12">
                                         <button type="submit" id="submitBtn" class="btn btn-primary text-white w-100 py-3 px-5">
-                                            <span class="button-text">SUBMIT NOW</span>
+                                            <span class="button-text">{% trans "SUBMIT NOW" %}</span>
                                             <div class="spinner-border text-light d-none" role="status">
-                                                <span class="visually-hidden">Loading...</span>
+                                                <span class="visually-hidden">{% trans "Loading..." %}</span>
                                             </div>
                                         </button>
                                     </div>
@@ -652,7 +647,7 @@
                             </form>
                         </div>
                     </div>
-                    
+
                     <!-- Success Modal -->
                     <div class="modal fade" id="successModal" tabindex="-1" aria-hidden="true">
                         <div class="modal-dialog">
@@ -665,7 +660,7 @@
                                     {% trans "Your appointment has been scheduled successfully!" %}
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">{% trans "Close" %}</button>
                                 </div>
                             </div>
                         </div>
@@ -674,26 +669,7 @@
             </div>
         </div>
 
-        
-        <!-- Modal Video -->
-        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content rounded-0">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">{% trans "Video" %}</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <!-- 16:9 aspect ratio -->
-                        <div class="ratio ratio-16x9">
-                            <iframe class="embed-responsive-item" src="" id="video" allowfullscreen
-                                allowscriptaccess="always" allow="autoplay"></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Book Appointment End -->
+       <!-- Book Appointment End -->
 
 
         <!-- Team Start -->
