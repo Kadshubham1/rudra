@@ -7,3 +7,4 @@ secure-smtplib
 whitenoise
 gunicorn==21.2.0
 requests
+golang
