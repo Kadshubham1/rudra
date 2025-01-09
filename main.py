@@ -8,7 +8,7 @@ app = get_wsgi_application()  # This creates the 'app' that Gunicorn is looking 
 if __name__ == "__main__":
     from gunicorn.app.wsgiapp import WSGIApplication
     
-    port = int(os.environ.get("PORT", 8080))
+    port = int(os.environ.get("PORT", 9090))
     options = {
         'bind': f'0.0.0.0:{port}',
         'workers': 2,
