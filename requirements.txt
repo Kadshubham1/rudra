@@ -1,12 +1,9 @@
 asgiref
-Django>=5.0.8
+Django>=5.0.8 
 python-dateutil
-six
-stdlib
 sqlparse
 tzdata
 secure-smtplib
 whitenoise
 gunicorn==21.2.0
 requests
-lxml
