@@ -34,6 +34,7 @@ ALLOWED_HOSTS = ["*"]
 CSRF_TRUSTED_ORIGINS =[
     'https://rudra-lgrq.onrender.com',
     'https://rudrayurvedic.com',
+    'innocent-margeaux-as-software-company-50659875.koyeb.app/'
     '*'
 ]
 
