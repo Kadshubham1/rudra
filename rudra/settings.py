@@ -35,7 +35,7 @@ CSRF_TRUSTED_ORIGINS =[
     'https://rudra-lgrq.onrender.com',
     'https://rudrayurvedic.com',
     'https://innocent-margeaux-as-software-company-50659875.koyeb.app/'
-    '*'
+    
 ]
 
 
